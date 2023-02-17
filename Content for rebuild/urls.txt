@@ -1,0 +1,23 @@
+Site base url
+https://www.larkhall.org/
+
+
+Social links (list in this order, use FontAwesome for icons)
+
+https://larkhall.bandcamp.com
+https://music.apple.com/us/artist/larkhall/1094487207
+https://tiktok.com/@larkhallmusic
+https://www.instagram.com/larkhallmusic
+https://youtube.com/@LarkhallMusic
+http://spoti.fi/1V9cn9T
+
+
+External links in main nav
+postclassical.co.uk
+https://linktr.ee/larkhall
+
+
+Current location of press kit / tour pack / tech rider (download and host locally)
+https://www.larkhall.org/wp-content/uploads/2022/11/Larkhall_EPK_2023.zip
+https://www.larkhall.org/wp-content/uploads/2022/11/Larkhall-Touring-Pack-11-2022.pdf
+https://www.larkhall.org/wp-content/uploads/2022/11/Larkhall-Stage-plot-diagram.pdf
