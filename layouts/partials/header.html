@@ -1,0 +1,24 @@
+<header class="hd">
+    <nav class="hd-Nav">
+        {{ range where .Site.Menus.main "Identifier" "powerline" }}
+        <a class="hd-NavPowerline" href="{{ .ConfiguredURL }}">{{ upper .Name }}</a>
+        {{ end }}
+        <button class="hd-NavTrigger" aria-active="false">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
+                <line stroke-width="2" stroke="currentColor" x1="0" x2="48" y1="8" y2="8" />
+                <line stroke-width="4" stroke="currentColor" x1="0" x2="48" y1="10" y2="10" />
+                <line stroke-width="2" stroke="currentColor" x1="0" x2="48" y1="23" y2="23" />
+                <line stroke-width="4" stroke="currentColor" x1="0" x2="48" y1="25" y2="25" />
+                <line stroke-width="2" stroke="currentColor" x1="0" x2="48" y1="38" y2="38" />
+                <line stroke-width="4" stroke="currentColor" x1="0" x2="48" y1="40" y2="40" />
+            </svg>
+        </button>
+        <div class="hd-NavLinks">
+            {{- range where .Site.Menus.main "identifier" "ne" "powerline" }}
+            <a class="hd-NavLink" href="{{ .ConfiguredURL }}"
+                {{- with .Params.target }}target="{{ . }}"{{ end -}}
+                >{{ default .Identifier .Name | upper }}</a>
+            {{ end -}}
+        </div>
+    </nav>
+</header>

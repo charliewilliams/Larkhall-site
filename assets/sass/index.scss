@@ -1,0 +1,14 @@
+@use "hugo:vars" as theme;
+@use "normalize.css";
+@import 'mixins';
+
+html {
+  font-size: theme.$base-font-size;
+}
+
+h1 {
+  font-size: 6rem;
+  font-family: theme.$powerline-font;
+}
+
+@import 'header';

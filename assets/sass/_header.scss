@@ -1,0 +1,74 @@
+.hd {
+  position: sticky;
+  top:0;
+  backdrop-filter: blur(2px);
+  padding: 1rem 1rem 0;
+
+  &-Nav {
+    display: flex;
+    max-width: theme.$max-content-width;
+    margin-inline: auto;
+    position: relative;
+  }
+
+  &-NavPowerline { 
+    margin-right: auto;
+    font-size: 2.5rem;
+    text-decoration: none;
+    font-family: theme.$powerline-font;
+    color: theme.$powerline_color;
+  }
+
+  &-NavTrigger {
+    outline: none;
+    border: none;
+    color: black;
+    width: 48px;
+    height: 48px;
+    transition: 0.2s ease;
+    &[aria-active="true"] {
+      color: #aaa;
+      background: #333;
+    }
+    @include lg {
+      @include hidden;
+    }
+  }
+
+  &:has(.hd-NavTrigger[aria-active="true"]) {
+    .hd-NavLinks {
+      transform: translate3d(0, 0, 0);
+    }
+  }
+
+  &-NavLinks {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto Condensed';
+    font-weight: 700;
+    position: absolute;
+    align-items: center;
+    top: 100%;
+    transform: translate3d(0, calc(-100% + -4rem), 0);
+    width: 100%;
+    gap: 0.25rem;
+    padding: 1rem;
+    box-sizing: border-box;
+    transition: 0.3s ease;
+    backdrop-filter: blur(4px);
+    background: rgba(255, 255, 255, 0.4);
+    @include lg {
+      position: relative;
+      top: initial;
+      transform: unset;
+      flex-direction: row;
+      justify-content: flex-end;
+    }
+  }
+
+  &-NavLink {
+    color: theme.$primary_text;
+    text-decoration: none;
+    padding: 0.25rem 0.5rem;
+  }
+}

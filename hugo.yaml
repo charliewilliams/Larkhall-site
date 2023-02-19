@@ -1,0 +1,45 @@
+baseURL: '/'
+languageCode: 'en-us'
+title: 'Larkhall'
+
+Params:
+  theme:
+    primary_text: '#333'
+    primary_color: 'red'
+    secondary_color: 'blue'
+    primary_background: 'green'
+    secondary_background: 'hotpink'
+    base_font_size: '16px'
+    max_content_width: '1600px'
+    powerline_font: 'Roboto Mono'
+    powerline_color: '#111'
+
+Menu:
+  main:
+    - identifier: 'powerline'
+      name: 'Larkhall'
+      url: '/'
+      weight: 0
+    - identifier: 'about'
+      url: '/about'
+      weight: 1
+    - identifier: 'concerts'
+      url: '/concerts'
+      weight: 2
+    - identifier: 'works'
+      url: '/works'
+      weight: 3
+    - identifier: 'postclassical_assembly'
+      name: 'postclassical assembly'
+      url: 'https://postclassical.co.uk'
+      weight: 4
+      params:
+        target: '_blank' # Adding this parameter to an external link ensures it opens in a new browser tab
+    - identifier: 'linktr.ee'
+      url: 'https://linktr.ee/larkhall'
+      weight: 5
+      params:
+        target: '_blank'
+    - identifier: 'contact'
+      url: '/contact'
+      weight: 6
