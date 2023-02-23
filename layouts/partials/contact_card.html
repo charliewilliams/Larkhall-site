@@ -1,0 +1,7 @@
+<div class="ctc">
+    {{ with .region }}<span class="ctc-Region">{{ . }}</span>{{ end }}
+    {{ with .name }}<h4 class="ctc-Name">{{ . }}</h4>{{ end }}
+    <a class="ctc-Info" href="mailto:{{ .contact_email }}">
+        {{ with .point_of_contact }} {{ . }} | {{ end }}{{ .contact_email }}
+    </a>
+</div>

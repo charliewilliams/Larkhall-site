@@ -1,1 +1,1 @@
-<div class="container">{{- .Inner -}}</div>
+{{ partial "container" (dict "Inner" .Inner | merge .Params ) }}

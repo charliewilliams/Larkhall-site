@@ -1,5 +1,1 @@
-<a class="dbt" href="{{ .Get "url" }}" download>
-    <span class="dbt-PreIcon"></span>
-        {{- .Get "text" -}}
-    <span class="dbt-PreIcon"></span>
-</a>
+{{ partial "download_button.html" .Params }}

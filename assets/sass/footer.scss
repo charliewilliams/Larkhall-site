@@ -1,0 +1,69 @@
+.ft {
+  @include container;
+  background: $secondary_background;
+  color: $secondary_text;
+
+  &-Container {
+    margin-inline: auto;
+    max-width: 600px;
+  }
+
+  &-TypographicLogo {
+    padding: clamp(1rem, 1vw, 3rem);
+    border: 2px solid $secondary_color;
+    margin-inline: auto;
+    display: block;
+    width: min-content;
+  }
+
+  &-Divider {
+    border-color: darken(#aaa, 40%);
+    border-width: 0.5px;
+  }
+
+  &-Nav {
+    padding: clamp(1rem, 3vw, 3rem);
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 0.5rem;
+  }
+
+  &-NavLink {
+    color: $secondary_text;
+    text-decoration: none;
+  }
+
+  &-Externals {
+    display: flex;
+    padding: clamp(1rem, 3vw, 2rem);
+    justify-content: space-around;
+  }
+
+  &-ExternalsLink {
+    color: $secondary_text;
+    svg {
+      width: 1.5rem;
+      height: 1.5rem;
+    }
+  }
+
+  &-NewsletterSignup {
+    display: block;
+    margin: clamp(1rem, 3vw, 2rem);
+    color: $secondary_text;
+    text-decoration: none;
+    text-align: center;
+    &_Icon {
+      margin-right: 1rem;
+      vertical-align: middle;
+    }
+  }
+
+  &-Copyright {
+    display: block;
+    margin-top: clamp(2rem, 8vw, 9rem);
+    text-align: center;
+    font-size: 0.9rem;
+  }
+}

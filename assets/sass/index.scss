@@ -1,24 +1,51 @@
-@use "hugo:vars" as theme;
-@use "sass:color";
 @use "normalize.css";
+@import "hugo:vars";
 @import 'mixins';
 
-$primary_text: theme.$primary_text;
+$primary_text: $primary_text;
 
 html {
-  font-size: theme.$base-font-size;
+  font-size: $base-font-size;
+  font-family: $main_font;
 }
 
-h1 {
-  font-size: 6rem;
-  font-family: theme.$powerline-font;
-}
+body { box-sizing: border-box; margin: 0; }
+
+h1,h2,h3,h4,h5,h6,ul,ol,li,p { margin-bottom: 0; }
+
+h1,h2,h3,h4,h5,h6 { line-height: 1; }
+
+h1 { font-weight: 400; }
 
 .container {
-  max-width: theme.$max_content_width;
-  margin-inline: auto;
+  @include container;
+}
+
+.container_PrimaryBackground {
+  @include container;
+  background-color: $primary_background;
+}
+
+.container_SecondaryBackground {
+  @include container;
+  background-color: $secondary_background;
+}
+
+.two_columns {
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    justify-content: space-around;
+    padding: 1rem 4rem;
+    margin-inline: auto;
+}
+.two_columns > * {
+    flex-basis: 1 0 50%;
 }
 
 @import 'header';
+@import 'footer';
 @import 'hero_media';
-@import 'download_button'
+@import 'download_button';
+@import 'newsletter_form';
+@import 'contact_card';

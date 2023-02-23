@@ -1,0 +1,18 @@
+.ctc {
+  margin-top: 1rem;
+  &-Region { display: block; text-align: center; }
+
+  &-Name {
+    font-size: 1.3rem;
+    text-decoration: underline;
+    margin-top: 0.5rem;
+    text-align: center;
+  }
+
+  &-Info {
+    display: block;
+    margin-top: 0.35rem;
+    color: $primary_text;
+    text-align: center;
+  }
+}

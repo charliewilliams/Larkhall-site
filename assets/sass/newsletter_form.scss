@@ -1,0 +1,64 @@
+.nf {
+  &-Container {
+    @include container;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    &_BackgroundPrimary { background-color: $primary_background; }
+    &_BackgroundSecondary { background-color: $secondary_background}
+  }
+
+  &-Content {
+    max-width: 25rem;
+    width: 100%;
+    margin-inline: auto;
+    display:flex;
+    flex-direction: column;
+    padding: 1rem;
+    box-sizing: border-box;
+  }
+
+  &-Headline {
+    font-weight: 700;
+    text-align: center;
+    margin-top: 0;
+  }
+
+  &-Subheadline {
+    text-align: center;
+    margin-top: 2rem;
+  }
+  &-Form {
+    margin-top: 1rem;
+  }
+
+  &-InputWrapper {
+    margin-top: 0.5rem;
+  }
+
+  &-InputLabel {
+    margin-left: 0.75rem;
+    font-size: 0.85rem;
+    color: lighten(#333333, 6%);
+    font-weight: 700;
+  }
+
+  &-InputField {
+    width: 100%;
+    box-sizing: border-box;
+    height: 2.5rem;
+    padding: 0 0.75rem;
+    margin-top: 0.5rem;
+  }
+
+  &-InputSubmit {
+    font-weight: 700;
+    outline: none;
+    background-color: transparent;
+    border: 2px solid #111;
+    padding: 0.5rem 1.75rem;
+    margin-top: 2rem;
+    color: $primary_text;
+    width: 100%;
+  }
+}

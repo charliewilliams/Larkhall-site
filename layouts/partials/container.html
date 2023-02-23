@@ -1,0 +1,11 @@
+<div class="{{- if and (isset . "background") (eq .background "primary") -}}
+                container_PrimaryBackground
+            {{- else if and (isset . "background") (eq .background "secondary") -}}
+                container_SecondaryBackground
+            {{- else -}}
+                container
+            {{- end -}}
+        ">
+    {{ with .heading }}<h2 style="text-align: center; margin-top: 0;">{{ . }}</h2>{{ end }}
+    {{- .Inner -}}
+</div>

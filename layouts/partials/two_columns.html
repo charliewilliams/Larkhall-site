@@ -1,0 +1,10 @@
+<div class="two_columns" style="
+    {{- with .align -}}
+        {{ if eq . "left" }}justify-content: flex-start;{{ end }}
+        {{ if eq . "right"}}justify-content: flex-end;{{ end }}
+    {{- end -}} 
+    {{- with .max_width -}}max-width: {{ . }};{{- end -}}
+    {{- with .gap -}}gap: {{ . }};{{- end -}}
+                        ">
+    {{ .Inner }}
+</div>

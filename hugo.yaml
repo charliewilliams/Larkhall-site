@@ -5,21 +5,26 @@ title: 'Larkhall'
 Params:
   theme:
     primary_text: '#333'
+    secondary_text: '#aaa'
     primary_color: 'red'
-    secondary_color: 'blue'
-    primary_background: 'green'
-    secondary_background: 'hotpink'
+    secondary_color: '#999'
+    primary_background: '#eee'
+    secondary_background: '#000000'
     base_font_size: '16px'
     max_content_width: '1600px'
     powerline_font: 'Roboto Mono'
     powerline_color: '#111'
-    main_font: 'Roboto'
+    main_font: 'Lato'
     links_font: 'Roboto Condensed'
+  footer_newsletter_signup:
+    cta: 'Sign up to newsletter'
+    icon: 'envelope'
+  newsletter_signup_url: 'https://tinyletter.com/_charlie'
 
 Menu:
   main:
     - identifier: 'powerline'
-      name: 'Larkhall'
+      name: 'LarkhaLl'
       url: '/'
       weight: 0
     - identifier: 'about'
@@ -45,7 +50,49 @@ Menu:
     - identifier: 'contact'
       url: '/contact'
       weight: 6
+  footer:
+    - identifier: 'site_info'
+      name: 'Site Info'
+      url: '/info'
+      weight: 0
+    - identifier: 'legal'
+      name: 'Legal Info'
+      url: '/'
+      weight: 1
+    - identifier: 'contact'
+      url: '/'
+      weight: 3
+  footer_externals:
+    - identifier: 'bandcamp'
+      url: 'https://larkhall.bandcamp.com'
+      weight: 1
+      params:
+        icon: 'bandcamp'
+    - identifier: 'apple_music'
+      url: 'https://music.apple.com/us/artist/larkhall/1094487207'
+      weight: 2
+      params:
+        icon: 'apple'
+    - identifier: 'tiktok'
+      url: 'https://tiktok.com/@larkhallmusic'
+      weight: 3
+      params:
+        icon: 'tiktok'
+    - identifier: 'instagram'
+      url: 'https://www.instagram.com/larkhallmusic'
+      weight: 4
+      params:
+        icon: 'instagram'
+    - identifier: 'youtube'
+      url: 'https://youtube.com/@LarkhallMusic'
+      weight: 5
+      params:
+        icon: 'youtube'
+    - identifier: 'spotify'
+      url: 'http://spoti.fi/1V9cn9T'
+      weight: 6
+      params:
+        icon: 'deezer'
 
 disableKinds: ["taxonomy"]
 ignoreErrors: ["error-disable-taxonomy"]
-

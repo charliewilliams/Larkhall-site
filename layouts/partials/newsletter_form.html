@@ -1,0 +1,28 @@
+<section class="nf" id="newsletter_signup">
+    <div class="nf-Container
+        {{- if and (isset . "background") (eq .background "primary") }}
+            nf-Container_BackgroundPrimary{{ end -}}
+        {{- if and (isset . "background") (eq .background "secondary") }}
+            nf-Container_BackgroundSecondary{{ end -}}
+        ">
+
+        <div class="nf-Content">
+            <h2 class="nf-Headline">{{ .headline }}</h2>
+            <span class="nf-Subheadline">{{ .sub_headline }}</span>
+
+            <form class="nf-Form" action="{{ default .Site.Params.newsletter_signup_url .action_url }}" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/_charlie', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true">
+                <div class="nf-InputWrapper">
+                    <label class="nf-InputLabel" for="name">Name*</label>
+                    <input id="name" type="text" name="name" class="nf-InputField">
+                </div>
+                <div class="nf-InputWrapper">
+                    <label class="nf-InputLabel" for="email">Email*</label>
+                    <input id="email" type="email" name="email" class="nf-InputField">
+                </div>
+                <input type="hidden" value="1" name="embed"/>
+                <input class="nf-InputSubmit" type="submit" value="{{ .subscribe_cta }}">
+            </form>
+        </div>
+
+    </div>
+</section>
