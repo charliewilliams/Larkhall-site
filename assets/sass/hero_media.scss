@@ -1,0 +1,24 @@
+.hm {
+  &-Embed {
+    iframe {
+      height: 56vw;
+      width: 100%;
+    }
+  }
+
+  &-Hosted { position: relative; }
+
+  &-HostedVideo {
+    width: 100%;
+    height: auto;
+    max-height: calc(100vh - 8rem);
+  }
+
+  &-HostedControls {
+    position: absolute;
+    z-index: 1;
+    top: min(6vw, 1rem);
+    right: min(6vw, 1rem);
+    backdrop-filter: blur(4px);
+  }
+}

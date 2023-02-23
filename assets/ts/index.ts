@@ -1,6 +1,7 @@
 import debounce from 'lodash/debounce'; 
+
+// Navigation Menu
 const navTrigger = document.querySelector('.hd-NavTrigger');
-console.log(navTrigger);
 
 const toggleNav = (el) => {
   if (el === null) return;
@@ -17,3 +18,26 @@ window.addEventListener('resize', debounce(
     150
   )
 )
+
+
+
+// Self hosted video player controls
+if (!!document.querySelectorAll('.hm-Hosted')) {
+  const players = document.querySelectorAll('.hm-Hosted');
+  players.forEach((r) => {
+    const videoAsset: HTMLVideoElement | null = r.querySelector('.hm-HostedVideo');
+    if (videoAsset === null) return;
+
+    const repeatButton = r.querySelector('.hm-HostedControls_Repeat');
+    const muteButton = r.querySelector('.hm-HostedControls_Mute');
+    const playButton = r.querySelector('.hm-HostedControls_Play');
+
+    playButton?.addEventListener('click', () => 
+        videoAsset.paused ? videoAsset.play() : videoAsset.pause());
+
+    muteButton?.addEventListener('click', () =>
+        videoAsset.muted = videoAsset.muted ? false : true);
+
+    repeatButton?.addEventListener('click', () => videoAsset.currentTime = 0);
+  })
+}

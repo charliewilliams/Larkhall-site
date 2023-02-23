@@ -13,6 +13,8 @@ Params:
     max_content_width: '1600px'
     powerline_font: 'Roboto Mono'
     powerline_color: '#111'
+    main_font: 'Roboto'
+    links_font: 'Roboto Condensed'
 
 Menu:
   main:
@@ -43,3 +45,7 @@ Menu:
     - identifier: 'contact'
       url: '/contact'
       weight: 6
+
+disableKinds: ["taxonomy"]
+ignoreErrors: ["error-disable-taxonomy"]
+

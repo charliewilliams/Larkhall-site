@@ -1,0 +1,8 @@
+.dbt {
+  text-decoration: none;
+  font-family: theme.$main_font;
+  font-weight: 500;
+  color: color.scale(#333, $lightness: -80%);
+  padding: 0.25rem 1rem;
+  border: 2px solid color.scale(#333, $lightness: -80%);
+}

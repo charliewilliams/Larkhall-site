@@ -1,6 +1,9 @@
 @use "hugo:vars" as theme;
+@use "sass:color";
 @use "normalize.css";
 @import 'mixins';
+
+$primary_text: theme.$primary_text;
 
 html {
   font-size: theme.$base-font-size;
@@ -11,4 +14,11 @@ h1 {
   font-family: theme.$powerline-font;
 }
 
+.container {
+  max-width: theme.$max_content_width;
+  margin-inline: auto;
+}
+
 @import 'header';
+@import 'hero_media';
+@import 'download_button'

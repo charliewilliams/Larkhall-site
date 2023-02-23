@@ -1,0 +1,34 @@
+{{- if .IsNamedParams }}
+
+{{ else }}
+
+    {{- $input := .Get 0 -}}
+    {{- if strings.Contains $input "iframe" }}
+        <div class="hm-Embed">
+            {{ $input | safeHTML }}
+        </div>
+    {{ else if or (strings.Contains $input "www") (strings.Contains $input "http") }}
+        {{ $url := urls.Parse $input }}
+        <div class="hm-Embed">
+        {{- if or (strings.Contains $url.Host "youtube") (strings.Contains $url.Path "youtube.com") -}}
+            <iframe class="dp-MediaPanel_Embed" width="560" height="315" src="https://www.youtube.com/embed/{{ after 2 $url.RawQuery }}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        {{- else if (strings.Contains $url.Host `youtu.be`) -}}
+            <iframe class="dp-MediaPanel_Embed" width="560" height="315" src="https://www.youtube.com/embed{{ $url.Path }}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        {{- else if (strings.Contains $url.Host `vimeo.com`) -}}
+            <iframe src="https://player.vimeo.com/video{{ $url.Path }}?title=0&byline=0&portrait=0" class="dp-MediaPanel_Embed" width="640" height="338" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+        {{- end -}}
+        </div>
+    {{ else }}
+        <div class="hm-Hosted">
+            <div class="hm-HostedControls">
+                <button class="hm-HostedControls_Repeat">repeat</button>
+                <button class="hm-HostedControls_Mute">mute</button>
+                <button class="hm-HostedControls_Play">play</button>
+            </div>
+            <video class="hm-HostedVideo" nocontrols autoplay="true">
+                <source src="{{ $input }}" type="video/mp4">
+            </video>
+        </div>
+    {{ end -}}
+
+{{ end -}}
