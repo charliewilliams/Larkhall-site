@@ -1,0 +1,64 @@
+{{ define "main" }}
+
+{{ $works := where .Site.RegularPages "Section" "works" }}
+<section class="wop">
+
+    <div class="wop-Container">
+
+        <div class="wop-AlbumList">
+
+            {{ range $works }}
+            {{ $image := .Resources.GetMatch (index .Params.images 0) }}
+            <div class="album">
+                <img 
+                    src="{{ ($image.Resize `600x q80 webp Lanczos`).Permalink }}"
+                    srcset="{{ ($image.Resize `150x q80 webp Lanczos`).Permalink }} 150w,
+                            {{ ($image.Resize `300x q80 webp Lanczos`).Permalink }} 300w,
+                            {{ ($image.Resize `600x q80 webp Lanczos`).Permalink }} 600w"
+                    sizes="150px"
+                    alt="Album 1"
+                    data-album-index="0">
+            </div>
+            {{ end }}
+        </div>
+
+        <audio id="audio" controls autoplay>
+            Your browser does not support the audio element.
+        </audio>
+
+        <div id="album-description"></div>
+
+        <div id="track-list"></div>
+    </div>
+</section>
+
+{{ with $works }}
+<script id="albumData" type="application/json">
+  {
+    "albums": [
+    {{ range $i, $v := . }}
+    {{- $album_page := . -}}
+      {
+        "name": "{{ .Title }}",
+
+        {{- $tracks := .Params.tracks -}}
+        {{ with $tracks }}
+        "tracks": [
+            {{- range $i, $v := . }}
+              {
+                "name": "{{ .name }}",
+                "src": "{{ ($album_page.Resources.GetMatch .src).Permalink | safeJS }}"
+              }{{- if lt (add 1 $i) (len $tracks) }},{{ end -}}
+            {{ end }}
+        ],
+        {{ end -}}
+
+        "description": "hi"
+      }{{ if lt (add 1 $i) (len $works) }},{{ end }}
+    {{ end }}
+    ]
+  }
+</script>
+{{ end }}
+
+{{ end }}

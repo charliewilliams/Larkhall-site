@@ -21,7 +21,7 @@
 
 @mixin hidden {
   opacity: 0;
-  display: none;
+  display: none !important;
   visibility: hidden;
 }
 

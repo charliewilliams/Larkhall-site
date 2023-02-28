@@ -1,4 +1,4 @@
 <section>
-    {{ with .heading }}<h2 style="text-align: center; margin-top: clamp(1rem, 5vw, 4rem);">{{ . }}</h2>{{ end }}
+    {{ with .heading }}<h2 style="text-align: center; margin-top: clamp(1rem, 5vw, 4rem);">{{ . | markdownify }}</h2>{{ end }}
     {{ with .Inner }}{{ . }}{{ end }}
 </section>

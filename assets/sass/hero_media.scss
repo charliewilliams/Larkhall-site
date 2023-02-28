@@ -1,3 +1,14 @@
+@mixin icon_button {
+  outline: none;
+  border: none;
+  background: transparent;
+  color: $primary_text;
+      svg {
+        width: 32px;
+        height: 32px;
+      }
+}
+
 .hm {
   &-Embed {
     iframe {
@@ -11,7 +22,7 @@
   &-HostedVideo {
     width: 100%;
     height: auto;
-    max-height: #{'calc(100vh - 8rem)'};
+    max-height: #{'calc(100vh - 5rem)'};
   }
 
   &-HostedControls {
@@ -19,6 +30,21 @@
     z-index: 1;
     top: #{'min(6vw, 1rem)'};
     right: #{'min(6vw, 1rem)'};
-    backdrop-filter: blur(4px);
+  }
+
+  &-HostedControls {
+    &_Repeat { 
+      @include icon_button; 
+    }
+    &_Mute { @include icon_button; }
+    &_Play { @include icon_button; }
+  }
+
+  &-Image {
+    width: 100%;
+    height: auto;
+    max-height: #{'calc(100vh - 5rem)'};
+    object-fit: cover;
   }
 }
+

@@ -4,6 +4,7 @@
   backdrop-filter: blur(2px);
   padding: 1rem 1rem 0;
   z-index: 10;
+  background: linear-gradient(to bottom, hsla(0deg, 0%, 80% , 0.8), hsla(0deg, 0%, 100% , 0.6) 15%, hsla(0deg,  0%, 100% , 0.6) 30%, hsla(0deg,  0%, 100%, 0.3));
 
   &-Nav {
     display: flex;
@@ -27,6 +28,7 @@
     width: 48px;
     height: 48px;
     transition: 0.2s ease;
+    background: Hsl(0deg, 0%, 100%, 30%);
     &[aria-active="true"] {
       color: #aaa;
       background: #333;

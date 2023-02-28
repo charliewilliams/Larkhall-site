@@ -96,3 +96,9 @@ Menu:
 
 disableKinds: ["taxonomy"]
 ignoreErrors: ["error-disable-taxonomy"]
+
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true

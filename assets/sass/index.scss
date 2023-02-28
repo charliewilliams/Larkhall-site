@@ -17,6 +17,8 @@ h1,h2,h3,h4,h5,h6 { line-height: 1; }
 
 h1 { font-weight: 400; }
 
+h2 { font-weight: 300; }
+
 .container {
   @include container;
 }
@@ -49,3 +51,5 @@ h1 { font-weight: 400; }
 @import 'download_button';
 @import 'newsletter_form';
 @import 'contact_card';
+@import 'works_player';
+@import 'bit_overrides';

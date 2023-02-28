@@ -1,0 +1,58 @@
+.bit {
+  &-widget { font-family: 'Lato' !important; }
+
+  &-upcoming-events { margin: 0 0 10px 0 !important; }
+  &-event { padding: 16px 0 !important; }
+
+  &-nav-bar { justify-content: center; }
+  &-event-list-title { font-size: 1.25rem !important; font-weight: 400;}
+  &-button { width: 120px !important; }
+
+  &-top-track-button { @include hidden; }
+  &-logo-container { @include hidden; }
+  &-startTime-container { @include hidden; }
+
+  &-rsvp {
+    text-decoration: underline !important;
+    border: none !important;
+  }
+
+  @include md {
+    &-details {
+      display: grid !important;
+      grid-template-columns: 150px 1fr;
+      grid-template-areas: "date location"
+      "date venue";
+      & > div:first-child { grid-area: date; }
+      & .bit-titleWrapper { 
+        grid-area: venue; 
+        position: relative;
+        &::after {
+          content: "";
+          width: 100%;
+          height: 1px;
+          background-color: $secondary_text;
+          position: absolute;
+          bottom: -5px;
+          left: 0;
+        }
+      }
+      & .bit-location { grid-area: location; }
+    }
+
+    &-details.bit-event-buttons { grid-template-columns: 1fr 1fr; }
+    
+    &-rsvp-container { margin-top: 0 !important; }
+    &-rsvp {
+      width: auto !important;
+      padding: 0 2rem;
+    }
+
+    &-event { border-top: 0 !important; }
+    &-upcoming-events { border-bottom: 0 !important; }
+    &-event-buttons {
+      margin-left: 0 !important;
+      position: relative;
+    }
+  }
+}

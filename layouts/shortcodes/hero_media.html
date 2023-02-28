@@ -3,6 +3,8 @@
 {{ else }}
 
     {{- $input := .Get 0 -}}
+    {{ $res := .Page.Resources.GetMatch $input }}
+
     {{- if strings.Contains $input "iframe" }}
         <div class="hm-Embed">
             {{ $input | safeHTML }}
@@ -18,14 +20,34 @@
             <iframe src="https://player.vimeo.com/video{{ $url.Path }}?title=0&byline=0&portrait=0" class="dp-MediaPanel_Embed" width="640" height="338" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
         {{- end -}}
         </div>
+    {{- else if eq $res.MediaType.MainType "image" -}}
+    <picture>
+        <source
+            type="image/webp"
+            srcset="{{ ($res.Resize `750x webp q80`).Permalink }} 750w,
+                    {{- if gt $res.Width 999 -}}{{ ($res.Resize `1000x webp q80`).Permalink }} 1000w,{{- end -}}
+                    {{- if gt $res.Width 1499 -}}{{ ($res.Resize `1500x webp q80`).Permalink }} 1500w,{{- end -}}
+                    {{- if gt $res.Width 1999 -}}{{ ($res.Resize `2000x webp q80`).Permalink }} 2000w,{{- end -}}
+                    {{- if gt $res.Width 2499 -}}{{ ($res.Resize `2500x webp q80`).Permalink }} 2500w,{{- end -}}
+                    {{- if gt $res.Width 2999 -}}{{ ($res.Resize `3000x webp q80`).Permalink }} 3000w,{{- end -}}
+                    {{ ($res.Resize (printf `%dx%d webp q80` $res.Width $res.Height)).Permalink }} {{ $res.Width }}w"
+            />
+        <img class="hm-Image" src="{{ $res.Permalink }}" alt="{{ $res.Name }}" width="{{ $res.Width }}" height="{{ $res.Height }}">
+    </picture>
     {{ else }}
         <div class="hm-Hosted">
             <div class="hm-HostedControls">
-                <button class="hm-HostedControls_Repeat">repeat</button>
-                <button class="hm-HostedControls_Mute">mute</button>
-                <button class="hm-HostedControls_Play">play</button>
+                <button class="hm-HostedControls_Repeat">
+                    {{ readFile "static/icons/arrow-counterclockwise.svg" | safeHTML }}
+                </button>
+                <button class="hm-HostedControls_Mute">
+                    {{ readFile "static/icons/speaker.svg" | safeHTML }}
+                </button>
+                <button class="hm-HostedControls_Play">
+                    {{ readFile "static/icons/play-pause.svg" | safeHTML }}
+                </button>
             </div>
-            <video class="hm-HostedVideo" nocontrols autoplay="true">
+            <video class="hm-HostedVideo" nocontrols autoplay webkit-playsinline="true" playisinline>
                 <source src="{{ $input }}" type="video/mp4">
             </video>
         </div>

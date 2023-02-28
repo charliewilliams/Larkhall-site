@@ -43,4 +43,9 @@
   {{- $js := resources.Get "ts/index.ts" | js.Build -}}
   <script type="application/javascript" src="{{ $js.Permalink }}" defer></script>
 
+  {{- if eq .Section "works" -}}
+  {{- $works_player := resources.Get "ts/works_player.ts" | js.Build (dict "targetPath" "/js/works_player.js") | fingerprint -}}
+    <script src="{{ $works_player.Permalink }}" type="application/javascript" defer></script>
+  {{- end -}}
+
 </head>
