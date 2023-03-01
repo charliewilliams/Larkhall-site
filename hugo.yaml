@@ -1,6 +1,7 @@
 baseURL: '/'
 languageCode: 'en-us'
 title: 'Larkhall'
+googleAnalytics: 'G-V7JCBBC3WR'
 
 Params:
   theme:
