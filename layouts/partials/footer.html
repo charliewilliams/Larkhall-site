@@ -4,15 +4,15 @@
     <div class="ft-Container">
 
         {{- with .Site.Menus.footer -}}
-        <nav class="ft-Nav">
+        <!-- <nav class="ft-Nav">
             {{- range . }}
             <a class="ft-NavLink" href="{{ .ConfiguredURL }}"
                 {{- with .Params.target }}target="{{ . }}"{{ end -}}
                     >{{ default .Identifier .Name | humanize }}</a>
             {{- end -}}
-        </nav>
+        </nav> -->
 
-        <hr class="ft-Divider">
+        <!-- <hr class="ft-Divider"> -->
         {{- end -}}
 
         {{- with .Site.Menus.footer_externals -}}
