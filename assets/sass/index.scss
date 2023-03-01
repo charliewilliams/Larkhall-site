@@ -34,8 +34,8 @@ h2 { font-weight: 300; }
 }
 
 .two_columns {
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     box-sizing: border-box;
     justify-content: space-around;
     padding: 1rem 4rem;
@@ -43,6 +43,12 @@ h2 { font-weight: 300; }
 }
 .two_columns > * {
     flex-basis: 1 0 50%;
+}
+
+.three_columns {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  place-items: center;
 }
 
 @import 'header';

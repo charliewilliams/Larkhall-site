@@ -7,7 +7,6 @@ layout: page
 
 {{< section >}}
     {{< container heading="MANAGEMENT">}}
-        {{< two_columns >}}
         {{< contact_card    
                 region="World" 
                 name="Agentur Grimm"
