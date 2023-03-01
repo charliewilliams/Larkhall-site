@@ -40,14 +40,15 @@
                 <button class="hm-HostedControls_Repeat">
                     {{ readFile "static/icons/arrow-counterclockwise.svg" | safeHTML }}
                 </button>
-                <button class="hm-HostedControls_Mute">
-                    {{ readFile "static/icons/speaker.svg" | safeHTML }}
+                <button class="hm-HostedControls_Mute" aria-muted="true">
+                    {{ readFile "static/icons/speaker-wave.svg" | safeHTML }}
+                    {{ readFile "static/icons/speaker-slash.svg" | safeHTML }}
                 </button>
                 <button class="hm-HostedControls_Play">
                     {{ readFile "static/icons/play-pause.svg" | safeHTML }}
                 </button>
             </div>
-            <video class="hm-HostedVideo" nocontrols autoplay webkit-playsinline="true" playisinline>
+            <video class="hm-HostedVideo" nocontrols autoplay webkit-playsinline="true" playisinline muted>
                 <source src="{{ $input }}" type="video/mp4">
             </video>
         </div>

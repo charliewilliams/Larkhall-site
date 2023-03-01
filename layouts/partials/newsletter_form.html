@@ -10,7 +10,7 @@
             <h2 class="nf-Headline">{{ .headline }}</h2>
             <span class="nf-Subheadline">{{ .sub_headline }}</span>
 
-            <form class="nf-Form" action="{{ default .Site.Params.newsletter_signup_url .action_url }}" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/_charlie', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true">
+            <form class="nf-Form" action="https://tinyletter.com/_charlie" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/_charlie', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true">
                 <div class="nf-InputWrapper">
                     <label class="nf-InputLabel" for="name">Name*</label>
                     <input id="name" type="text" name="name" class="nf-InputField">

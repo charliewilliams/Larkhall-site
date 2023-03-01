@@ -35,8 +35,10 @@ if (!!document.querySelectorAll('.hm-Hosted')) {
     playButton?.addEventListener('click', () => 
         videoAsset.paused ? videoAsset.play() : videoAsset.pause());
 
-    muteButton?.addEventListener('click', () =>
-        videoAsset.muted = videoAsset.muted ? false : true);
+    muteButton?.addEventListener('click', () => {
+        videoAsset.muted = videoAsset.muted ? false : true;
+        muteButton.setAttribute("aria-muted", `${videoAsset.muted}`);
+    });
 
     repeatButton?.addEventListener('click', () => videoAsset.currentTime = 0);
   })

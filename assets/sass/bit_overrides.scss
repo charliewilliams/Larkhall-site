@@ -55,4 +55,8 @@
       position: relative;
     }
   }
+
+  &-play-my-city-button { @include hidden; }
+
+  &-past-events .bit-details.bit-event-buttons { @include hidden; }
 }

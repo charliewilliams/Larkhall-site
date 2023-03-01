@@ -14,7 +14,7 @@
             </svg>
         </button>
         <div class="hd-NavLinks">
-            {{- range where .Site.Menus.main "identifier" "ne" "powerline" }}
+            {{- range where .Site.Menus.main "Identifier" "ne" "powerline" }}
             <a class="hd-NavLink" href="{{ .ConfiguredURL }}"
                 {{- with .Params.target }}target="{{ . }}"{{ end -}}
                 >{{ default .Identifier .Name | upper }}</a>

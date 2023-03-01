@@ -16,10 +16,11 @@ Params:
     powerline_color: '#111'
     main_font: 'Lato'
     links_font: 'Roboto Condensed'
+    footer_background: '#eee'
+    footer_foreground: '#333'
   footer_newsletter_signup:
     cta: 'Sign up to newsletter'
     icon: 'envelope'
-  newsletter_signup_url: 'https://tinyletter.com/_charlie'
 
 Menu:
   main:

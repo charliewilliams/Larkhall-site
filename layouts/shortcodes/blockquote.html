@@ -1,0 +1,4 @@
+<figure class="bq">
+    {{- with (.Get "text") -}}<blockquote class="bq-Blockquote">{{ . }}</blockquote>{{- end -}}
+    {{- with (.Get "cite") -}}<figcaption class="bq-Cite">{{ . }}</figcaption>{{- end -}}
+</figure>

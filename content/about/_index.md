@@ -17,22 +17,21 @@ Mad scientist and prizewinning concert pianist Larkhall has invented a computer 
 
 See technology, visual art and music collide in this moving, cinematic performance of the future.
 
-"A new exciting voice on the contemporary scene"
-—Hannah MacInnes, Times Radio
+>"A new exciting voice on the contemporary scene"
+<br>—Hannah MacInnes, Times Radio
 
-“Absolutely lovely”
-—Scala Radio
+>“Absolutely lovely”
+<br>—Scala Radio
 
-“Innovative”
-—Southern Daily Echo
+>“Innovative”
+<br>—Southern Daily Echo
 
-"Vividly beautiful"
-—Hämeenkyrön Sanomat
-
+>"Vividly beautiful"
+<br>—Hämeenkyrön Sanomat
 
 Audience reviews:
-“⭐️⭐️⭐️⭐️⭐️. You won’t be disappointed if you take time out of frantic festival schedule to go to see Larkhall. Visually stunning. Musically sublime.”
-Ceri Morgan
+
+{{< blockquote text="“⭐️⭐️⭐️⭐️⭐️. You won’t be disappointed if you take time out of frantic festival schedule to go to see Larkhall. Visually stunning. Musically sublime.”" cite="Ceri Morgan" >}}
 
 “Larkhall's Say You're With Me at Summerhall is an elegant chamber set of (mostly) piano music with enchanting, live-generated visuals from a computer onstage next to the performer. The graphics for each song look quite different, but are all intimately connected to the music.”
 Asa Wember
@@ -54,18 +53,20 @@ Scott Seivwright
 {{< /text_column >}}
 {{< /section >}}
 
+
+
 {{< container >}}
 {{< three_columns >}}
-{{< download_button 
-        url="assets/Larkhall_EPK_2023.zip" 
-        text="Download press kit" >}}
+    {{< download_button 
+            url="assets/Larkhall_EPK_2023.zip" 
+            text="Download press kit" >}}
 
-{{< download_button 
-        url="assets/Larkhall-Stage-plot-diagram.pdf" 
-        text="Download stage plot diagram" >}}
+    {{< download_button 
+            url="assets/Larkhall-Stage-plot-diagram.pdf" 
+            text="Download stage plot diagram" >}}
 
-{{< download_button 
-        url="assets/Larkhall-Touring-Pack-11-2022.pdf" 
-        text="Download touring pack" >}}
+    {{< download_button 
+            url="assets/Larkhall-Touring-Pack-11-2022.pdf" 
+            text="Download touring pack" >}}
 {{< /three_columns >}}
 {{< /container >}}

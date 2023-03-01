@@ -1,7 +1,7 @@
 .ft {
   @include container;
-  background: $secondary_background;
-  color: $secondary_text;
+  background: $footer_background;
+  color: $footer_foreground;
 
   &-Container {
     margin-inline: auto;
@@ -30,7 +30,7 @@
   }
 
   &-NavLink {
-    color: $secondary_text;
+    color: $footer_foreground;
     text-decoration: none;
   }
 
@@ -41,7 +41,7 @@
   }
 
   &-ExternalsLink {
-    color: $secondary_text;
+    color: $footer_foreground;
     svg {
       width: 1.5rem;
       height: 1.5rem;
@@ -51,7 +51,7 @@
   &-NewsletterSignup {
     display: block;
     margin: clamp(1rem, 3vw, 2rem);
-    color: $secondary_text;
+    color: $footer_foreground;
     text-decoration: none;
     text-align: center;
     &_Icon {

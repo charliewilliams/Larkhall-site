@@ -19,6 +19,12 @@
   }
 }
 
+@mixin show {
+  opacity: 1;
+  display: block !important;
+  visibility: visible;
+}
+
 @mixin hidden {
   opacity: 0;
   display: none !important;

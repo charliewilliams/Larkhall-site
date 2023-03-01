@@ -40,6 +40,17 @@
     &_Play { @include icon_button; }
   }
 
+  &-HostedControls_Mute {
+    &[aria-muted="false"] {
+      svg:first-child { @include show; }
+      svg:last-child { @include hidden; }
+    }
+    &[aria-muted="true"] {
+      svg:first-child { @include hidden; }
+      svg:last-child { @include show; }
+    }
+  }
+
   &-Image {
     width: 100%;
     height: auto;

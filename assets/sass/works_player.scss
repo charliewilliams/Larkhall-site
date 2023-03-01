@@ -10,9 +10,11 @@
     display: grid;
     gap: 2rem;
     grid-template-columns: repeat(4, 1fr);
+
     & > * {
       width: clamp(150px, 20%, 25%);
     }
+
     img {
       width: 100%;
       height: auto;
