@@ -6,8 +6,10 @@ $primary_text: $primary_text;
 
 html {
   font-size: $base-font-size;
-  font-family: $main_font;
+  font-family: $main_font, 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
 }
+
+a { font-family: $main_font, 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif; }
 
 body { box-sizing: border-box; margin: 0; }
 
