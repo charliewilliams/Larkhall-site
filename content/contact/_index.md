@@ -9,7 +9,7 @@ layout: page
     {{< container heading="CONTACT">}}
         {{< contact_card    
                 name="Sarah Warden"
-                point_of_contact="Sarah Warden"
+                point_of_contact="Management/Producer"
                 contact_email="sarah@larkhall.org" >}}
     {{< /container >}}
 {{< /section >}}
