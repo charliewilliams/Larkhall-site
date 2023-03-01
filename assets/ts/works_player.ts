@@ -38,7 +38,7 @@ function selectAlbum(albumIndex: number) {
   audio.load();
   
   // Play audio
-  audio.play();
+  // audio.play();
   
   // Set album description
   const albumDescription = document.getElementById('album-description');
