@@ -62,7 +62,7 @@ Scott Seivwright
 
 {{< download_button 
         url="assets/Larkhall-Stage-plot-diagram.pdf" 
-        text="Download plot diagram" >}}
+        text="Download stage plot diagram" >}}
 
 {{< download_button 
         url="assets/Larkhall-Touring-Pack-11-2022.pdf" 
