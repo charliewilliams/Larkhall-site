@@ -1,13 +1,14 @@
 {{ define "main" }}
 
 {{ $works := where .Site.RegularPages "Section" "works" }}
+{{ $static := index $works 0 }}
 <section class="wop">
 
     <div class="wop-Container">
 
         <div class="wop-AlbumList">
 
-            {{ range $works }}
+            {{ range $i, $v := $works }}
             {{ $image := .Resources.GetMatch (index .Params.images 0) }}
             <div class="album">
                 <img 
@@ -16,19 +17,50 @@
                             {{ ($image.Resize `300x q80 webp Lanczos`).Permalink }} 300w,
                             {{ ($image.Resize `600x q80 webp Lanczos`).Permalink }} 600w"
                     sizes="150px"
-                    alt="Album 1"
-                    data-album-index="0">
+                    alt="{{ .Title }}"
+                    data-album-index="{{ $i }}">
             </div>
             {{ end }}
         </div>
 
-        <audio id="audio" controls autoplay muted controlsList="nodownload">
+        <h2 class="wop-AlbumTitle"><strong>{{ $static.Title }}</strong></h2>
+
+        <span class="wop-ReleaseDate">{{ with $static.Params.launch_date }}{{ time.Format "2006" . }}{{ end }}</span>
+
+    </div>
+
+</section>
+
+<section class="wop">
+
+    <div class="wop-CurrentCovers">
+        {{ range sort ($static.Resources.Match "*_cover.*") "Name" "desc" }}
+        <figure>
+            <source srcset="{{ (.Resize `400x q80 webp`).Permalink }} 400w
+                            {{- if ge .Width 600 -}}, {{ (.Resize `600x q80 webp`).Permalink }} 600w{{- end -}}
+                            {{- if ge .Width 800 -}}, {{ (.Resize `800x q80 webp`).Permalink }} 800w{{- end -}}
+                            {{- if ge .Width 1000 -}}, {{ (.Resize `1000x q80 webp`).Permalink }} 1000w{{- end -}}
+                            {{- if ge .Width 1200 -}}, {{ (.Resize `1200x q80 webp`).Permalink }} 1200w{{- end -}}
+                            ">
+            <img class="wop-CurrentCovers_Image" src="{{ .Permalink }}" alt="{{ .Name }}">
+        </figure>
+        {{ end }}
+    </div>
+
+    <div class="wop-Container">
+
+        <audio class="wop-Player" id="audio" controls autoplay muted controlsList="nodownload">
             Your browser does not support the audio element.
         </audio>
 
-        <div id="album-description"></div>
+        <div id="track-list">
+            {{- range $static.Params.tracks -}}
+            <span>{{ .name }}</span>
+            {{- end -}}
+        </div>
 
-        <div id="track-list"></div>
+        <div id="album-description">{{ $static.Content }}</div>
+
     </div>
 </section>
 
@@ -53,7 +85,23 @@
         ],
         {{ end -}}
 
-        "description": "hi"
+        {{- $images := .Params.images -}}
+        {{ with $images }}
+        "images": [
+            {{ range $i, $v := . }}
+            [
+                {{- $image := $album_page.Resources.GetMatch . -}}
+                "{{ ($image.Resize `400x q80 webp`).Permalink }}"
+                {{- if ge $image.Width 600 -}}, "{{ ($image.Resize `600x q80 webp`).Permalink }}"{{- end -}}
+                {{- if ge $image.Width 800 -}}, "{{ ($image.Resize `800x q80 webp`).Permalink }}"{{- end -}}
+                {{- if ge $image.Width 1000 -}}, "{{ ($image.Resize `1000x q80 webp`).Permalink }}"{{- end -}}
+                {{- if ge $image.Width 1200 -}}, "{{ ($image.Resize `1200x q80 webp`).Permalink }}"{{- end -}}
+            ]{{- if lt (add 1 $i) (len $images) }},{{ end -}}
+            {{ end -}}
+        ],
+        {{ end -}}
+
+        "description": "{{ .Content }}"
       }{{ if lt (add 1 $i) (len $works) }},{{ end }}
     {{ end }}
     ]

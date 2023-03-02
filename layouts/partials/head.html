@@ -40,7 +40,7 @@
   <link rel="stylesheet" type="text/css" href="{{ $main_css.Permalink }}">
   {{- end -}}
 
-  {{- $js := resources.Get "ts/index.ts" | js.Build -}}
+  {{- $js := resources.Get "ts/index.ts" | js.Build (dict "targetPath" "/js/index.js") -}}
   <script type="application/javascript" src="{{ $js.Permalink }}" defer></script>
 
   {{- if eq .Section "works" -}}
@@ -48,4 +48,5 @@
     <script src="{{ $works_player.Permalink }}" type="application/javascript" defer></script>
   {{- end -}}
 
+  {{- if hugo.IsProduction -}}{{ template "_internal/google_analytics.html" }}{{- end -}}
 </head>

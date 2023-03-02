@@ -104,3 +104,6 @@ markup:
   goldmark:
     renderer:
       unsafe: true
+
+imaging:
+  resampleFilter: 'Lanczos'

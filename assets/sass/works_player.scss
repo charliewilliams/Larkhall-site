@@ -23,4 +23,22 @@
     }
   }
 
+  &-CurrentCovers {
+    display: flex;
+    max-width: 1000px;
+    margin-inline: auto;
+    justify-content: space-around;
+  }
+
+  &-CurrentCovers_Image {
+    max-height: 400px;
+    width: 100%;
+    object-fit: contain;
+  }
+
+  &-Player {
+    display: block;
+    margin-inline: auto;
+  }
+
 }
