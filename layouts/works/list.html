@@ -19,13 +19,15 @@
                     sizes="150px"
                     alt="{{ .Title }}"
                     data-album-index="{{ $i }}">
+                <span class="wop-AlbumThumbnail_Title">{{ .Title }}</span>
+                {{- with .Params.release_date }}<span class="wop-AlbumThumbnail_ReleaseDate">{{ time.Format "2006" . }}</span>{{ end -}}
             </div>
             {{ end }}
         </div>
 
         <h2 class="wop-AlbumTitle"><strong>{{ $static.Title }}</strong></h2>
 
-        <span class="wop-ReleaseDate">{{ with $static.Params.launch_date }}{{ time.Format "2006" . }}{{ end }}</span>
+        <span class="wop-ReleaseDate">{{ with $static.Params.release_date }}{{ time.Format "2006" . }}{{ end }}</span>
 
     </div>
 
@@ -47,7 +49,7 @@
         {{ end }}
     </div>
 
-    <div class="wop-Container">
+    <div class="wop-Container wop-PlayerControls">
 
         <audio class="wop-Player" id="audio" controls autoplay muted controlsList="nodownload">
             Your browser does not support the audio element.
@@ -59,9 +61,12 @@
             {{- end -}}
         </div>
 
-        <div id="album-description">{{ $static.Content }}</div>
-
     </div>
+
+    <div class="wop-Container">
+        <div id="album-description">{{ $static.Content }}</div>
+    </div>
+
 </section>
 
 {{ with $works }}

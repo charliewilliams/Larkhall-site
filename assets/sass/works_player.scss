@@ -2,36 +2,66 @@
 
   &-Container {
     @include container;
-    max-width: 800px;
+    max-width: 950px;
     width: auto;
   }
 
   &-AlbumList {
     display: grid;
     gap: 2rem;
-    grid-template-columns: repeat(4, 1fr);
-
-    & > * {
-      width: clamp(150px, 20%, 25%);
-    }
+    grid-template-columns: repeat(2, 1fr);
 
     img {
       width: 100%;
       height: auto;
-      max-height: 150px;
+      max-height: 250px;
       object-fit: contain;
     }
+    @include md {
+      grid-template-columns: repeat(4, 1fr);
+    }
+  }
+
+  &-AlbumThumbnail {
+    &_Title {
+      font-weight: 700;
+      display: block;
+      margin: 0.75rem 1.5rem 0.25rem;
+      text-align: center;
+    }
+    &_ReleaseDate {
+      text-align: center;
+      display: block;
+    }
+  }
+
+  &-AlbumTitle {
+    margin-top: clamp(1.5rem, 3vw, 4rem);
+    text-align: center;
+    font-size: 2rem;
+  }
+
+  &-ReleaseDate {
+    display: block;
+    text-align: center;
+    margin-top: clamp(1.5rem, 3vw, 4rem);
+    font-size: 1.25rem;
+    font-weight: 200;
   }
 
   &-CurrentCovers {
     display: flex;
-    max-width: 1000px;
+    max-width: 1300px;
     margin-inline: auto;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 2.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    figure { margin: 0 }
   }
 
   &-CurrentCovers_Image {
-    max-height: 400px;
+    max-height: 500px;
     width: 100%;
     object-fit: contain;
   }
@@ -39,6 +69,23 @@
   &-Player {
     display: block;
     margin-inline: auto;
+  }
+
+  &-PlayerControls {
+    gap: 2rem;
+    grid-template-columns: 1fr 1fr;
+
+    & .wop-Player { width: 100%; min-width: 300px; }
+    & #track-list { 
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+      padding-top: 1rem;
+    }
+
+    @include md {
+      display: grid;
+    }
   }
 
 }
