@@ -1,4 +1,6 @@
+{{- $pagecontext := . -}}
 <header class="hd">
+
     <nav class="hd-Nav">
         {{ range where .Site.Menus.main "Identifier" "powerline" }}
         <a class="hd-NavPowerline" href="{{ .ConfiguredURL }}">{{ upper .Name }}</a>
@@ -15,7 +17,7 @@
         </button>
         <div class="hd-NavLinks">
             {{- range where .Site.Menus.main "Identifier" "ne" "powerline" }}
-            <a class="hd-NavLink" href="{{ .ConfiguredURL }}"
+            <a class="hd-NavLink {{ if eq .Identifier $.Section }}hd-NavLink_Active{{ end }}" href="{{ .ConfiguredURL }}"
                 {{- with .Params.target }}target="{{ . }}"{{ end -}}
                 >
                 {{- default .Identifier .Name | upper -}}

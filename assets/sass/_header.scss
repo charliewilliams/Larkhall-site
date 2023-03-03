@@ -86,5 +86,17 @@
         height: 1rem;
       }
     }
+    &.hd-NavLink_Active {
+      position: relative;
+      &:after {
+        position: absolute;
+        content: "";
+        width: 100%;
+        height: 1px;
+        left: 0;
+        bottom: 0;
+        background-color: $primary_text;
+      }
+    }
   }
 }

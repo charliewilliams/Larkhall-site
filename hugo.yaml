@@ -23,7 +23,7 @@ Params:
     cta: 'Sign up to newsletter'
     icon: 'envelope'
 
-Menu:
+menu:
   main:
     - identifier: 'powerline'
       name: 'LarkhaLl'
