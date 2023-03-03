@@ -15,7 +15,7 @@ const albumData = JSON.parse(document.getElementById('albumData').textContent);
 let selectedAlbumIndex = 0;
 
 function init() {
-  const albumImages = document.querySelectorAll('.album img');
+  const albumImages = document.querySelectorAll('.wop-Album img');worli
   
   // Add click event listeners to album images
   albumImages.forEach((img) => {

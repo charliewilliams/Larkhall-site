@@ -22,12 +22,21 @@
     }
   }
 
+  &-Album { 
+    &_Active {
+      .wop-AlbumThumbnail_Title {
+      }
+    }
+  }
+
   &-AlbumThumbnail {
     &_Title {
       font-weight: 700;
       display: block;
       margin: 0.75rem 1.5rem 0.25rem;
       text-align: center;
+      font-size: 0.875rem;
+      @include md { font-size: 1rem; }
     }
     &_ReleaseDate {
       text-align: center;

@@ -74,5 +74,17 @@
     color: $primary_text;
     text-decoration: none;
     padding: 0.25rem 0.5rem;
+    &[target="_blank"] {
+      padding-right: 2rem;
+      box-sizing: border-box;
+      position: relative;
+      svg {
+        position: absolute;
+        right: 0.675rem;
+        top: -0.125rem;
+        width: 1rem;
+        height: 1rem;
+      }
+    }
   }
 }

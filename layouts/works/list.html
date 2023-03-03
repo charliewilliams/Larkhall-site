@@ -10,7 +10,7 @@
 
             {{ range $i, $v := $works }}
             {{ $image := .Resources.GetMatch (index .Params.images 0) }}
-            <div class="album">
+            <div class="wop-Album">
                 <img 
                     src="{{ ($image.Resize `600x q80 webp Lanczos`).Permalink }}"
                     srcset="{{ ($image.Resize `150x q80 webp Lanczos`).Permalink }} 150w,
