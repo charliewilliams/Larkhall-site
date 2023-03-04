@@ -42,11 +42,11 @@
 
     &-details.bit-event-buttons { grid-template-columns: 1fr 1fr; }
     
-    &-rsvp-container { margin-top: 0 !important; }
-    &-rsvp {
-      width: auto !important;
-      padding: 0 2rem;
-    }
+    &-rsvp-container {
+       margin-top: 0 !important; 
+      @include hidden;
+      }
+
 
     &-event { border-top: 0 !important; }
     &-upcoming-events { border-bottom: 0 !important; }
