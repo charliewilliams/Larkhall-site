@@ -2,6 +2,7 @@
 title: "Say You're With Me"
 slug: 'sywm'
 date: 2022
+release_date: '2022-05-27'
 images: [ 'SYWM-Cover-Piano-2k.jpg', 'Back.jpg' ]
 external_links:
   - service: 'Apple Music'

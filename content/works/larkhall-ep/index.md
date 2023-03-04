@@ -2,6 +2,7 @@
 title: 'Larkhall (EP)'
 slug: 'larkhall-ep'
 date: 2016
+release_date: '2016-11-27'
 images: [ 'front_cover.png' ]
 external_links:
   - service: 'Apple Music'

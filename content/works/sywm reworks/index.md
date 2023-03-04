@@ -1,7 +1,7 @@
 ---
 title: "And You Were: Say You're With Me Reworked"
 date: 2023
-release_date: '2022-06-01'
+release_date: '2023-05-27'
 images: [ 'front_cover.jpg' ]
 external_links:
   - service: 'Apple Music'
@@ -18,11 +18,26 @@ tracks:
   - { name: 'Cascade (Ani Glass Rework)', src: 'assets/Cascade (Ani Glass Rework).mp3' }
 ---
 
+Reworks of tracks from 2022's _Say You're With Me_ featuring contributions from James Yuill,
+Ani Glass,
+Jim Cornick,
+Josh Semans,
+Neil Gay,
+Echo Juliet,
+Simeon Walker,
+Harriet Riley,
+Emma Hooper,
+Alexandra Hamilton-Ayres,
+and Neil Gay
 
-Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat.
-
-Lorem ipsum dolor sit amet, officia excepteur ex fugiat reprehenderit enim labore culpa sint ad nisi Lorem pariatur mollit ex esse exercitation amet. Nisi anim cupidatat excepteur officia. Reprehenderit nostrud nostrud ipsum Lorem est aliquip amet voluptate voluptate dolor minim nulla est proident. Nostrud officia pariatur ut officia. Sit irure elit esse ea nulla sunt ex occaecat reprehenderit commodo officia dolor Lorem duis laboris cupidatat officia voluptate. Culpa proident adipisicing id nulla nisi laboris ex in Lorem sunt duis officia eiusmod. Aliqua reprehenderit commodo ex non excepteur duis sunt velit enim. Voluptate laboris sint cupidatat ullamco ut ea consectetur et est culpa et culpa duis.
-
-Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat.Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat.
-
-Lorem ipsum dolor sit amet, officia excepteur ex fugiat reprehenderit enim labore culpa sint ad nisi Lorem pariatur mollit ex esse exercitation amet. Nisi anim cupidatat excepteur officia. Reprehenderit nostrud nostrud ipsum Lorem est aliquip amet voluptate voluptate dolor minim nulla est proident. Nostrud officia pariatur ut officia. Sit irure elit esse ea nulla sunt ex occaecat reprehenderit commodo officia dolor Lorem duis laboris cupidatat officia voluptate. Culpa proident adipisicing id nulla nisi laboris ex in Lorem sunt duis officia eiusmod. Aliqua reprehenderit commodo ex non excepteur duis sunt velit enim. Voluptate laboris sint cupidatat ullamco ut ea consectetur et est culpa et culpa duis.
+1. Eleven Japanese Streams (James Yuill Rework)	4:04
+2. Cascade (Ani Glass Rework)	3:58
+3. On the Morning of the Second Day (Jim Cornick Rework)	5:07
+4. In My Mind Are All the Tides (Josh Semans Rework)	3:41
+5. Time of Flight (Neil Gay Rework)	5:57
+6. Uncertain Times (Echo Juliet Rework)	3:10
+7. Uncertain Times (Simeon Walker Rework)	3:23
+8. Before We Knew (Harriet Riley Rework)	4:19
+9. Between Light and Leaves (Emma Hooper Rework)	3:16
+10. Vincennes (Alexandra Hamilton-Ayres Rework)	4:22
+11. Time of Flight (Radio Edit) (Neil Gay Rework)	3:46
