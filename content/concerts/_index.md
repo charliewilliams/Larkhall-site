@@ -4,7 +4,7 @@ layout: page
 ---
 
 {{< section >}}
-    {{< hero_media "LARKHALL-1-crop.jpg" >}}
+    {{< hero_media "Larkhall-TEDx-0.jpg" >}}
 {{< /section >}}
 
 {{< section >}}
