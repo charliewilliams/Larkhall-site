@@ -87,7 +87,7 @@
             {{- range $i, $v := . }}
               {
                 "name": "{{ .name }}",
-                "src": "{{ ($album_page.Resources.GetMatch .src).Permalink | safeJS }}"
+                "src": "{{ if eq .src "#" }}#{{ else }}{{ ($album_page.Resources.GetMatch .src).Permalink | safeJS }}{{ end }}"
               }{{- if lt (add 1 $i) (len $tracks) }},{{ end -}}
             {{ end }}
         ],

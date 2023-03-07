@@ -86,6 +86,7 @@ function selectAlbum(albumIndex: number) {
 
 function selectTrack(trackIndex: number) {
   // Set track source and play
+  if (albumData.albums[selectedAlbumIndex].tracks[trackIndex].src === "#") return; 
   const activeTrack = document.querySelector('#track-list .active')
   activeTrack?.classList.remove('active');
   const trackSrc = albumData.albums[selectedAlbumIndex].tracks[trackIndex].src;
