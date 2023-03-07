@@ -10,7 +10,7 @@
 
             {{ range $i, $v := $works }}
             {{ $image := .Resources.GetMatch (index .Params.images 0) }}
-            <div class="wop-Album">
+            <div class="wop-Album {{ if eq $i 0 }}active{{ end }}">
                 <img 
                     src="{{ ($image.Resize `600x q80 webp Lanczos`).Permalink }}"
                     srcset="{{ ($image.Resize `150x q80 webp Lanczos`).Permalink }} 150w,
@@ -94,14 +94,16 @@
         {{ with $images }}
         "images": [
             {{ range $i, $v := . }}
-            [
-                {{- $image := $album_page.Resources.GetMatch . -}}
-                "{{ ($image.Resize `400x q80 webp`).Permalink }}"
-                {{- if ge $image.Width 600 -}}, "{{ ($image.Resize `600x q80 webp`).Permalink }}"{{- end -}}
-                {{- if ge $image.Width 800 -}}, "{{ ($image.Resize `800x q80 webp`).Permalink }}"{{- end -}}
-                {{- if ge $image.Width 1000 -}}, "{{ ($image.Resize `1000x q80 webp`).Permalink }}"{{- end -}}
-                {{- if ge $image.Width 1200 -}}, "{{ ($image.Resize `1200x q80 webp`).Permalink }}"{{- end -}}
-            ]{{- if lt (add 1 $i) (len $images) }},{{ end -}}
+            {{- $image := $album_page.Resources.GetMatch . -}}
+                    { "src": "{{ ($image.Resize `1200x q80 webp`).Permalink }}",
+                    "srcset": [
+                        "{{ ($image.Resize `400x q80 webp`).Permalink }} w400"
+                        {{- if ge $image.Width 600 -}}, "{{ ($image.Resize `600x q80 webp`).Permalink }} w600"{{- end -}}
+                        {{- if ge $image.Width 800 -}}, "{{ ($image.Resize `800x q80 webp`).Permalink }} w800"{{- end -}}
+                        {{- if ge $image.Width 1000 -}}, "{{ ($image.Resize `1000x q80 webp`).Permalink }} w1000"{{- end -}}
+                        {{- if ge $image.Width 1200 -}}, "{{ ($image.Resize `1200x q80 webp`).Permalink }} w1200"{{- end -}}
+                    ]
+                    }{{- if lt (add 1 $i) (len $images) }},{{ end -}}
             {{ end -}}
         ],
         {{ end -}}

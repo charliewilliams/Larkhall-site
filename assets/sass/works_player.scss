@@ -23,6 +23,11 @@
   }
 
   &-Album { 
+    transition: 0.467s ease;
+    &.active {
+      transform: scale3d(1.05, 1.05, 1.05);
+      transform-origin: center;
+    }
     &_Active {
       .wop-AlbumThumbnail_Title {
       }
@@ -97,4 +102,15 @@
     }
   }
 
+  #track-list {
+    span {
+      cursor: pointer;
+      padding: 0.25rem 1rem;
+      transition: 0.367s ease;
+    }
+    span.active {
+      background: #333;
+      color: white;
+    }
+  }
 }
