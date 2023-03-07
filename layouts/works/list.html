@@ -12,6 +12,7 @@
             {{ $image := .Resources.GetMatch (index .Params.images 0) }}
             <div class="wop-Album {{ if eq $i 0 }}active{{ end }}">
                 <img 
+                    class="wop-AlbumThumbnail"
                     src="{{ ($image.Resize `600x q80 webp Lanczos`).Permalink }}"
                     srcset="{{ ($image.Resize `150x q80 webp Lanczos`).Permalink }} 150w,
                             {{ ($image.Resize `300x q80 webp Lanczos`).Permalink }} 300w,

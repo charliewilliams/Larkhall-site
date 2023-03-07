@@ -24,12 +24,21 @@
 
   &-Album { 
     transition: 0.467s ease;
+    &Thumbnail {
+      box-shadow: 0 0px 0px 0 rgba(11, 0, 68, 0.0);
+    }
     &.active {
       transform: scale3d(1.05, 1.05, 1.05);
       transform-origin: center;
     }
     &_Active {
       .wop-AlbumThumbnail_Title {
+      }
+    }
+    &:hover {
+      transform: scale3d(1.15, 1.15, 1.15);
+      .wop-AlbumThumbnail {
+        box-shadow: 0 5px 14px 0 rgba(11, 0, 68, 0.46);
       }
     }
   }
