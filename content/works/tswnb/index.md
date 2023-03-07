@@ -18,4 +18,5 @@ tracks:
   - { name: 'Astronomia', src: "assets/02-Larkhall-Astronomia.mp3" }
 ---
 
-<p>This is the second album description.</p>
+# "Vividly beautiful"
+            — Hämeenkyrön Sanomat

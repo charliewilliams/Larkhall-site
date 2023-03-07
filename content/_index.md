@@ -8,19 +8,20 @@ background_color: '#c9dedf'
 {{< /section >}}
 
 {{< text_column >}}
-# **h1** test **title**
+# A Composer's Journey into AI-Generated Visuals
 
-some markdown paragraph
+## Meet **Larkhall**: postclassical composer, prizewinning concert pianist, and creative coder. 
 
-1. And
-1. A
-1. Bulleted
-1. List
+## Meet his groundbreaking invention, **Otto**. 
+
+## Otto is an AI system that understands music. As Larkhall performs, Otto creates live visuals that respond to his performances in real-time, creating a mesmerizing sensory experience for the audience. 
+
+
+
 {{< /text_column >}}
 
 {{< container >}}
     {{< download_button 
-            url="assets/Squares.png" 
-            text="Download some squares kit" >}}
+            url="about/" 
+            text="Learn More" >}}
 {{< /container >}}
-
