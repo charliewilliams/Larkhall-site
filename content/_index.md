@@ -21,7 +21,7 @@ background_color: '#c9dedf'
 {{< /text_column >}}
 
 {{< container >}}
-    {{< download_button 
+    {{< link_button 
             url="about/" 
             text="Learn More" >}}
 {{< /container >}}
