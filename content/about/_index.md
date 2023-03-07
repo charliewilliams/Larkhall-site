@@ -9,47 +9,19 @@ layout: 'page'
 
 {{< section heading=`**LARKHALL**` >}}
 {{< text_column >}}
-Algorithms are art.
-Coding is creative.
-Let Larkhall show you.
+Larkhall is the performance alias of Charlie Williams, a composer, pianist, and creative coder who combines piano, visual art, and technology to create moving, cinematic performances.
 
-Mad scientist and prizewinning concert pianist Larkhall has invented a computer system named Otto, who creates live visual projections responding in real time to his performance.
+His AI system 'Otto' creates visuals that unfold in time with the structure of each composition, reacting in real time to the individual nuance of each performance, resulting in a unique and immersive experience.
 
-See technology, visual art and music collide in this moving, cinematic performance of the future.
+Williams largely taught himself to play the piano and went on to win the prize for new music performance at the International Shostakovich Piano Competition. He also worked as a software developer for tech startups including Shazam, where he built an audio-reactive "listening" animation.
 
->"A new exciting voice on the contemporary scene"
-<br>—Hannah MacInnes, Times Radio
+His 2019 album, *The Sea Was Never Blue*, hit #2 on the UK iTunes Classical Chart and introduced his signature style of musically-reactive visuals. The 2022 followup, *Say You're With Me*, earned him praise as "A new exciting voice on the contemporary scene" by Hannah MacInnes of Times Radio and "Absolutely lovely" by Scala Radio.
 
->“Absolutely lovely”
-<br>—Scala Radio
+In 2023, he is set to release an album of reworks from *Say You're With Me*, which has already received praise from BBC Introducing, Archodia, Black Cat Radio, Drivelcast, and LiveWire Music.
 
->“Innovative”
-<br>—Southern Daily Echo
+Don't miss the chance to experience Larkhall's unique blend of music and technology in his [upcoming performances](/concerts).
 
->"Vividly beautiful"
-<br>—Hämeenkyrön Sanomat
 
-Audience reviews:
-
-{{< blockquote text="“⭐️⭐️⭐️⭐️⭐️. You won’t be disappointed if you take time out of frantic festival schedule to go to see Larkhall. Visually stunning. Musically sublime.”" cite="Ceri Morgan" >}}
-
-“Larkhall's Say You're With Me at Summerhall is an elegant chamber set of (mostly) piano music with enchanting, live-generated visuals from a computer onstage next to the performer. The graphics for each song look quite different, but are all intimately connected to the music.”
-Asa Wember
-
-“10 Ed Fest Best: A breathtaking experience as live piano combines with algorithmic visual representations of the music. My definite blind discovery of the Fringe.”
-@lorcanmullan
-
-“Mesmerising and gorgeous”
-@skarey_parsnips
-
-“Incredible and fascinating look at the future of the relationship between technology and music. Brilliant music, incredible visuals! Not to be missed!”
-Matt Watterworth
-
-“Really lovely show - see it if you can! Engaging performance by a very talented artist. Loved the music and the visuals, and really enjoyed the discussion of the tech behind it. Highly recommended.”
-Shasti W
-
-“Great night at @larkhall @edfringe. Stunning. Absolutely enjoyed it”
-Scott Seivwright
 {{< /text_column >}}
 {{< /section >}}
 
