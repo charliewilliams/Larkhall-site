@@ -1,1 +1,1 @@
-<a class="link_button" href="{{ .url }}">{{- .text -}}</a>
+<a class="link_button {{ with .class }} {{. }}{{ end }}" href="{{ .url }}" {{ partial "fn/get_attributes" . }}>{{- .text -}}</a>

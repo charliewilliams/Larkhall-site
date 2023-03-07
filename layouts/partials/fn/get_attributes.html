@@ -1,0 +1,13 @@
+{{ $attributes := "" }}
+{{ range $k, $v := . }}
+    {{- if or   (eq $k "sizes")
+                (eq $k "style")
+                (eq $k "alt")
+                (eq $k "muted")
+                (eq $k "autoplay")
+                (strings.Contains $k "data-")
+                (strings.Contains $k "aria-") -}}
+        {{ $attributes = printf ` %s %s="%s"` $attributes $k . }}{{- end }}
+{{ end }}
+{{ $safe_attributes := $attributes |  safeHTMLAttr }}
+{{ return $safe_attributes }}

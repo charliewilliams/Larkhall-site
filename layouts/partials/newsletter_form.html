@@ -1,4 +1,4 @@
-<section class="nf" id="newsletter_signup">
+<section class="nf {{ with .class }} {{. }}{{ end }}" id="newsletter_signup" {{ partial "fn/get_attributes" . }}>
     <div class="nf-Container
         {{- if and (isset . "background") (eq .background "primary") }}
             nf-Container_BackgroundPrimary{{ end -}}

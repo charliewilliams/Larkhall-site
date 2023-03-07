@@ -30,6 +30,8 @@
   place-items: center;
 }
 
+.text_column { max-width: 900px }
+
 .link_button {
   @include link_button;
 }

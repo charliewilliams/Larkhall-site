@@ -66,6 +66,9 @@ function selectAlbum(albumIndex: number) {
   currentCovers.innerHTML = '';
   albumCovers.forEach(cover => currentCovers.appendChild(cover));
 
+  document.querySelector< HTMLSpanElement >('.wop-AlbumTitle strong').innerText = albumData.albums[selectedAlbumIndex].name;
+  document.querySelector< HTMLSpanElement >('.wop-ReleaseDate').innerText = albumData.albums[selectedAlbumIndex].release_year;
+
   // Set track list
   const trackList = document.getElementById('track-list');
   const tracks = albumData.albums[selectedAlbumIndex].tracks;

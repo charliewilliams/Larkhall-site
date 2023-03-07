@@ -1,4 +1,4 @@
-<figure class="bq">
+<figure class="bq {{ with .class }} {{. }}{{ end }}" {{ partial "fn/get_attributes" . }}>
     {{- with (.Get "text") -}}<blockquote class="bq-Blockquote">{{ . }}</blockquote>{{- end -}}
     {{- with (.Get "cite") -}}<figcaption class="bq-Cite">{{ . }}</figcaption>{{- end -}}
 </figure>

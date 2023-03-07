@@ -1,4 +1,4 @@
-<section>
+<section {{ with .class }}class="{{ . }}"{{ end }} {{ partial "fn/get_attributes" . }}>
     {{ with .heading }}<h2 style="text-align: center; margin-top: clamp(1rem, 5vw, 4rem);">{{ . | markdownify }}</h2>{{ end }}
     {{ with .Inner }}{{ . }}{{ end }}
 </section>

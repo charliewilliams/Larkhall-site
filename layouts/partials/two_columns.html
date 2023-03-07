@@ -1,4 +1,4 @@
-<div class="two_columns" style="
+<div class="two_columns {{ with .class }} {{. }}{{ end }}" style="
     {{- with .align -}}
         {{ if eq . "left" }}justify-content: flex-start;{{ end }}
         {{ if eq . "right"}}justify-content: flex-end;{{ end }}

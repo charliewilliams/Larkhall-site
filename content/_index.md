@@ -22,6 +22,7 @@ background_color: '#c9dedf'
 
 {{< container >}}
     {{< link_button 
+            style="margin-inline: auto; display: block;"
             url="about/" 
             text="Learn More" >}}
 {{< /container >}}

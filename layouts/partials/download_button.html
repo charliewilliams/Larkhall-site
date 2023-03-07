@@ -1,4 +1,4 @@
-<a class="dbt" href="{{ .url }}" download>
+<a class="dbt  {{ with .class }} {{. }}{{ end }}" href="{{ .url }}" download {{ partial "fn/get_attributes" . }}>
     <span class="dbt-PreIcon"></span>
         {{- .text -}}
     <span class="dbt-PreIcon"></span>

@@ -77,6 +77,8 @@
     {{- $album_page := . -}}
       {
         "name": "{{ .Title }}",
+        {{- with .Params.release_date }}"release_date": "{{ . }}", {{ end -}}
+        {{- with .Params.release_date }}"release_year": "{{ time.Format "2006" . }}", {{ end -}}
 
         {{- $tracks := .Params.tracks -}}
         {{ with $tracks }}
