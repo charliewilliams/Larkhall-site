@@ -18,6 +18,19 @@ tracks:
   - { name: 'Cascade (Ani Glass Rework)', src: 'assets/Cascade (Ani Glass Rework).mp3' }
 ---
 
+# "A heady brew of classicism and electronics… I love that very very much indeed" 
+            — Adam Walton (BBC Radio Wales)
+
+# “Masterfully understated and laced with a magnetic sense of melody”
+            — Archodia
+
+# “Amazing new music. Absolutely beautiful”
+            — Black Cat Radio
+
+# “Gorgeous”
+            — Drivelcast
+
+
 Reworks of tracks from 2022's _Say You're With Me_ featuring contributions from James Yuill,
 Ani Glass,
 Jim Cornick,
@@ -28,8 +41,10 @@ Simeon Walker,
 Harriet Riley,
 Emma Hooper,
 Alexandra Hamilton-Ayres,
-and Neil Gay
+and Neil Gay.
 
+
+**Tracklist:**
 1. Eleven Japanese Streams (James Yuill Rework)	4:04
 2. Cascade (Ani Glass Rework)	3:58
 3. On the Morning of the Second Day (Jim Cornick Rework)	5:07
