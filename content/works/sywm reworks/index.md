@@ -27,6 +27,14 @@ tracks:
 
 ---
 
+<!-- {{< blockquote text="“A heady brew of classicism and electronics… I love that very very much indeed”" cite="Adam Walton (BBC Radio Wales)" >}}
+
+{{< blockquote text="“Masterfully understated and laced with a magnetic sense of melody”" cite="Archodia" >}}
+
+{{< blockquote text="“Amazing new music. Absolutely beautiful”" cite="Black Cat Radio" >}}
+
+{{< blockquote text="“Gorgeous”" cite="Drivelcast" >}} -->
+
 # "A heady brew of classicism and electronics… I love that very very much indeed" 
             — Adam Walton (BBC Radio Wales)
 
