@@ -33,9 +33,12 @@ function selectAlbum(albumIndex: number) {
   selectedAlbumIndex = albumIndex;
   
   // Load first track of selected album
-  const trackSrc = albumData.albums[selectedAlbumIndex].tracks[0].src;
-  audio.src = trackSrc;
-  audio.load();
+  const firstPlayableTrack = albumData.albums[selectedAlbumIndex].tracks.findIndex(track => !/^#$/.test(track.src));
+  if (firstPlayableTrack === 0) {
+    const trackSrc = albumData.albums[selectedAlbumIndex].tracks[0].src;
+    audio.src = trackSrc;
+    audio.load();
+  }
   
   // Play audio
   // audio.play();
@@ -89,6 +92,7 @@ function selectAlbum(albumIndex: number) {
     }
     trackList.appendChild(trackSpan);
   });
+  selectTrack(firstPlayableTrack);
 }
 
 function selectTrack(trackIndex: number) {

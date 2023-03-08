@@ -26,9 +26,7 @@
     padding: 1rem 4rem;
     margin-inline: auto;
 }
-.two_columns > * {
-    flex-basis: 1 0 50%;
-}
+.two_columns > * { flex-basis: 1 0 50%; }
 
 .three_columns {
   display: grid;
@@ -39,6 +37,4 @@
 
 .text_column { max-width: 900px }
 
-.link_button {
-  @include link_button;
-}
+.link_button { @include link_button; }
