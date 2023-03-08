@@ -14,9 +14,17 @@ external_links:
     icon: 'spotify'
     url: 'https://open.spotify.com/artist/2HHKj6VPo3jaPbFVocgVvm'
 tracks:
-  - { name: 'Eleven Japanese Streams (James Yuill Rework)', src: 'assets/Eleven Japanese Streams (James Yuill Rework).mp3' }
-  - { name: 'Cascade (Ani Glass Rework)', src: 'assets/Cascade (Ani Glass Rework).mp3' }
-  - { name: 'On the Morning of the Second Day (Jim Cornick Rework)', src: "#" }
+  - { name: '1. Eleven Japanese Streams (James Yuill Rework)', src: 'assets/Eleven Japanese Streams (James Yuill Rework).mp3' }
+  - { name: '2. Cascade (Ani Glass Rework)', src: 'assets/Cascade (Ani Glass Rework).mp3' }
+  - { name: '3. On the Morning of the Second Day (Jim Cornick Rework)', src: "#" }
+  - { name: '4. In My Mind Are All the Tides (Josh Semans Rework)', src: "#" }
+  - { name: '5. Time of Flight (Neil Gay Rework)', src: "#" }
+  - { name: '6. Uncertain Times (Echo Juliet Rework)', src: "#" }
+  - { name: '7. Uncertain Times (Simeon Walker Rework)', src: "#" }
+  - { name: '8. Before We Knew (Harriet Riley Rework)', src: "#" }
+  - { name: '9. Between Light and Leaves (Emma Hooper Rework)', src: "#" }
+  - { name: '10. Vincennes (Alexandra Hamilton-Ayres Rework)', src: "#" }
+
 ---
 
 # "A heady brew of classicism and electronics… I love that very very much indeed" 
@@ -57,3 +65,5 @@ and Neil Gay.
 9. Between Light and Leaves (Emma Hooper Rework)	3:16
 10. Vincennes (Alexandra Hamilton-Ayres Rework)	4:22
 11. Time of Flight (Radio Edit) (Neil Gay Rework)	3:46
+
+[Pre-order on Bandcamp](https://larkhall.bandcamp.com/album/and-you-were-say-youre-with-me-reworked)
