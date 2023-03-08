@@ -74,12 +74,19 @@ function selectAlbum(albumIndex: number) {
   const tracks = albumData.albums[selectedAlbumIndex].tracks;
   trackList.innerHTML = '';
   tracks.forEach((track, index) => {
+
     const trackSpan = document.createElement('span');
     trackSpan.textContent = track.name;
     trackSpan.addEventListener('click', () => {
       selectTrack(index);
     });
     index === 0 && trackSpan.classList.add("active");
+    if (!/^#$/.test(track.src)) {
+      const icon = document.createElement('img');
+      icon.classList.add('wop-AlbumTrack_WithAudio');
+      icon.setAttribute('src', '/icons/play.svg');
+      trackSpan.prepend(icon);
+    }
     trackList.appendChild(trackSpan);
   });
 }
