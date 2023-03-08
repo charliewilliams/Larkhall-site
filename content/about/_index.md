@@ -27,8 +27,7 @@ Don't miss the chance to experience Larkhall's unique blend of music and technol
 
 
 
-{{< container >}}
-{{< three_columns >}}
+{{< container flex="true" >}}
     {{< download_button 
             url="assets/Larkhall_EPK_2023.zip" 
             text="Download press kit" >}}
@@ -40,5 +39,4 @@ Don't miss the chance to experience Larkhall's unique blend of music and technol
     {{< download_button 
             url="assets/Larkhall-Touring-Pack-11-2022.pdf" 
             text="Download touring pack" >}}
-{{< /three_columns >}}
 {{< /container >}}
