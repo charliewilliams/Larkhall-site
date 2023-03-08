@@ -92,7 +92,16 @@ function selectAlbum(albumIndex: number) {
     }
     trackList.appendChild(trackSpan);
   });
-  selectTrack(firstPlayableTrack);
+
+  if (!!firstPlayableTrack) {
+    const activeTrack = document.querySelector('#track-list .active')
+    activeTrack?.classList.remove('active');
+    const trackSrc = albumData.albums[selectedAlbumIndex].tracks[firstPlayableTrack].src;
+    audio.src = trackSrc;
+    audio.load();
+    document.querySelectorAll('#track-list span')[firstPlayableTrack].classList.add('active');
+  }
+
 }
 
 function selectTrack(trackIndex: number) {
