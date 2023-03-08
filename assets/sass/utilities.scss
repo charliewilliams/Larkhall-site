@@ -26,8 +26,9 @@
 
 .three_columns {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: repeat(auto-fit, minmax(373px, 1fr));
   place-items: center;
+  gap: 1rem;
 }
 
 .text_column { max-width: 900px }
