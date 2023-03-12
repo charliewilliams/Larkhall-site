@@ -10,15 +10,15 @@ layout: 'page'
 {{< section heading=`**LARKHALL**` >}}
 
 {{< text_column >}}
-{{< blockquote text="“A heady brew of classicism and electronics… I love that very very much indeed”" cite="Adam Walton (BBC Radio Wales)" >}}
+<!-- {{< blockquote text="“A heady brew of classicism and electronics… I love that very very much indeed”" cite="Adam Walton (BBC Radio Wales)" >}}
 
 {{< blockquote text="“Masterfully understated and laced with a magnetic sense of melody”" cite="Archodia" >}}
 
 {{< blockquote text="“Amazing new music. Absolutely beautiful”" cite="Black Cat Radio" >}}
 
-{{< blockquote text="“Gorgeous”" cite="Drivelcast" >}}
+{{< blockquote text="“Gorgeous”" cite="Drivelcast" >}} -->
 
-<!-- # "A heady brew of classicism and electronics… I love that very very much indeed" 
+# "A heady brew of classicism and electronics" 
             — Adam Walton (BBC Radio Wales)
 
 # “Masterfully understated and laced with a magnetic sense of melody”
@@ -28,7 +28,7 @@ layout: 'page'
             — Black Cat Radio
 
 # “Gorgeous”
-            — Drivelcast -->
+            — Drivelcast
 
 Larkhall is the performance alias of Charlie Williams, a composer, pianist, and creative coder who combines piano, visual art, and technology to create moving, cinematic performances.
 

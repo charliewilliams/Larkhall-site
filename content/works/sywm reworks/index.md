@@ -35,7 +35,7 @@ tracks:
 
 {{< blockquote text="“Gorgeous”" cite="Drivelcast" >}} -->
 
-# "A heady brew of classicism and electronics… I love that very very much indeed" 
+# "A heady brew of classicism and electronics" 
             — Adam Walton (BBC Radio Wales)
 
 # “Masterfully understated and laced with a magnetic sense of melody”

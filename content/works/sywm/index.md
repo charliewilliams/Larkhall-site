@@ -35,6 +35,12 @@ tracks:
 # “Absolutely lovely”
             — Scala Radio
 
+# “Soulful, richly layered mini works of art. It's rare I listen to an album like this and from the first play through love every single track. 9/10”
+            — Nick Smithson, Review Graveyard
+
+# “Not only beautifully captivating, but also filled with sonic illustration, of meaning without words, a technological statement of the profound. 8.5/10”
+            — Liverpool Sound (Ian Hall)
+
 Featuring lockdown collaborations with Jay Chakravorty, Jo Quail, Jim Cornick, Beth Porter, Emma Hooper, Ben Mortimer, and Alex Pearson. 
 
 Recorded at Real World Studios, Steinway Recording, and Twigmore Hall. 
