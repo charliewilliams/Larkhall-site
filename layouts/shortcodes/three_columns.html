@@ -1,1 +1,2 @@
-<div class="three_columns {{ with (.Get "class") }} {{. }}{{ end }}" {{ partial "fn/get_attributes" .Params }}>{{ .Inner }}</div>
+<div class="three_columns {{ with (.Get "class") }} {{. }}{{ end }}" style="
+                {{- with (.Get "gap") -}} gap: {{ . }};{{- end -}}" {{ partial "fn/get_attributes" .Params }}>{{ .Inner }}</div>
