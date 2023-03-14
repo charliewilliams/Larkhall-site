@@ -38,18 +38,21 @@ menu:
     - identifier: 'works'
       url: '/works'
       weight: 3
+    - identifier: 'videos'
+      url: '/videos'
+      weight: 4
     - identifier: 'contact'
       url: '/contact'
-      weight: 4
+      weight: 5
     - identifier: 'postclassical_assembly'
       name: 'postclassical assembly'
       url: 'https://postclassical.co.uk'
-      weight: 5
+      weight: 6
       params:
         target: '_blank' # Adding this parameter to an external link ensures it opens in a new browser tab
     - identifier: 'linktr.ee'
       url: 'https://linktr.ee/larkhall'
-      weight: 6
+      weight: 7
       params:
         target: '_blank'
 

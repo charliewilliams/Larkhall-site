@@ -12,7 +12,7 @@ background_color: '#c9dedf'
 
 ## Meet **Larkhall**: postclassical composer, prizewinning concert pianist, and creative coder. 
 
-## Meet his groundbreaking invention, **Otto**. 
+## Now meet his groundbreaking invention, **Otto**. 
 
 ## Otto is an AI system that understands music. As Larkhall performs, Otto creates live visuals that respond to his performances in real-time, creating a mesmerizing sensory experience for the audience. 
 
