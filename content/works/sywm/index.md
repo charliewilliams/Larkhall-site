@@ -35,10 +35,10 @@ Recorded at Real World Studios, Steinway Recording, and Twigmore Hall.
 
 Mixed by Scott Barnett and mastered by Zino Mikorey.
 
-{{< blockquote text="“A new exciting voice on the contemporary scene”" cite="Hannah MacInnes, Times Radio" >}}
-{{< blockquote text="“Absolutely lovely”" cite="Scala Radio" >}}
-{{< blockquote text="“Soulful, richly layered mini works of art. It's rare I listen to an album like this and from the first play through love every single track. 9/10”" cite="Nick Smithson, Review Graveyard" >}}
-{{< blockquote text="“Not only beautifully captivating, but also filled with sonic illustration, of meaning without words, a technological statement of the profound. 8.5/10”" cite="Liverpool Sound (Ian Hall)" >}}
+{{< blockquote text="“A new exciting voice on the contemporary scene”" cite="—Hannah MacInnes, Times Radio" >}}
+{{< blockquote text="“Absolutely lovely”" cite="—Scala Radio" >}}
+{{< blockquote text="“Soulful, richly layered mini works of art. It's rare I listen to an album like this and from the first play through love every single track. 9/10”" cite="—Nick Smithson, Review Graveyard" >}}
+{{< blockquote text="“Not only beautifully captivating, but also filled with sonic illustration, of meaning without words, a technological statement of the profound. 8.5/10”" cite="—Liverpool Sound (Ian Hall)" >}}
 
 <br><br>
 

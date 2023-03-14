@@ -39,13 +39,13 @@ Emma Hooper,
 Alexandra Hamilton-Ayres,
 and Neil Gay.
 
-{{< blockquote text="“A heady brew of classicism and electronics… I love that very very much indeed”" cite="Adam Walton (BBC Radio Wales)" >}}
+{{< blockquote text="“A heady brew of classicism and electronics… I love that very very much indeed”" cite="—Adam Walton (BBC Radio Wales)" >}}
 
-{{< blockquote text="“Masterfully understated and laced with a magnetic sense of melody”" cite="Archodia" >}}
+{{< blockquote text="“Masterfully understated and laced with a magnetic sense of melody”" cite="—Archodia" >}}
 
-{{< blockquote text="“Amazing new music. Absolutely beautiful”" cite="Black Cat Radio" >}}
+{{< blockquote text="“Amazing new music. Absolutely beautiful”" cite="—Black Cat Radio" >}}
 
-{{< blockquote text="“Gorgeous”" cite="Drivelcast" >}}
+{{< blockquote text="“Gorgeous”" cite="—Drivelcast" >}}
 
 {{< link_button 
             style="margin-inline: auto; display: block;"
