@@ -1,5 +1,5 @@
 ---
-title: contact
+title: 'Larkhall | Contact'
 layout: page
 ---
 

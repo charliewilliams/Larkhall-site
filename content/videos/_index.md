@@ -1,40 +1,32 @@
 ---
-title: 'About'
+title: 'Larkhall | Videos'
 layout: 'page'
 ---
 
-<!-- {{< section >}}
-    {{< hero_media "LARKHALL-1-crop.jpg" >}}
-{{< /section >}} -->
-
 {{< section heading=`**VIDEOS**` >}}
-
-{{< three_columns >}}
-
-{{< youtube id="IdIYbkqPWjI" >}}
-
-{{< youtube id="iWkLmI8hAYM" >}}
-
-{{< youtube id="iWkLmI8hAYM" >}}
-
-{{< /three_columns >}}
-
 {{< /section >}}
 
+{{< text_column >}}
 
+{{< two_columns gap="0.5em" >}}
 
-<!-- {{< container >}}
-{{< three_columns >}}
-    {{< download_button 
-            url="assets/Larkhall_EPK_2023.zip" 
-            text="Download press kit" >}}
+{{< youtube id="IdIYbkqPWjI" >}} <!-- TOF -->
 
-    {{< download_button 
-            url="assets/Larkhall-Stage-plot-diagram.pdf" 
-            text="Download stage plot diagram" >}}
+{{< youtube id="gjkn9XFVyws" >}} <!-- Cascade -->
 
-    {{< download_button 
-            url="assets/Larkhall-Touring-Pack-11-2022.pdf" 
-            text="Download touring pack" >}}
-{{< /three_columns >}}
-{{< /container >}} -->
+{{< youtube id="ot7Vx0-m5Qo" >}} <!-- Astronomia -->
+
+{{< youtube id="xhRWTEsTOp8" >}} <!-- M&T -->
+
+{{< youtube id="Zx85syjUWb0" >}} <!-- River's Tent -->
+
+{{< youtube id="iY-fqIP_G3E" >}} <!-- Uncertain Times -->
+
+{{< youtube id="Rxf3QRzjUhQ" >}} <!-- Interview -->
+
+{{< youtube id="iWkLmI8hAYM" >}} <!-- Cascade -->
+
+{{< /two_columns >}}
+
+{{< /text_column >}}
+

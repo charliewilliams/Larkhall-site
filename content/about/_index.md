@@ -1,5 +1,5 @@
 ---
-title: 'About'
+title: 'Larkhall | About'
 layout: 'page'
 ---
 

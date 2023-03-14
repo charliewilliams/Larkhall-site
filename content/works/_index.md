@@ -1,5 +1,5 @@
 ---
-title: 'Works'
+title: 'Larkhall | Works'
 ---
 
 works
