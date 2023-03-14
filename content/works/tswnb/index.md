@@ -28,25 +28,19 @@ tracks:
   
 ---
 
-# “A wonderful change of pace... spoke directly to the Nils Frahm fan in me.” 
-            — Sunny Stuart Winter, Fresh on the Net
+{{< section >}}
+
+{{< blockquote text="“A wonderful change of pace... spoke directly to the Nils Frahm fan in me.”" cite="Sunny Stuart Winter, Fresh on the Net" >}}
             
-# "Vividly beautiful"
-            — Hämeenkyrön Sanomat
+{{< blockquote text="“Vividly beautiful”" cite="Hämeenkyrön Sanomat" >}}
+
+{{< text_column >}}
 
 First full-length album from Larkhall. 
 
 Recorded at Twigmore Hall, Bath. Mixed and mastered by Stuart Bruce.
 
-1. Astronomia
-2. Map and territory
-3. How to actually change your mind
-4. Sailing the farm
-5. The sea was never blue
-6. Hide and Seek
-7. At the violet hour
-8. Eldridge
-9. Light from other days
-10. The river’s tent is broken
-
 [Get it on Bandcamp](https://larkhall.bandcamp.com/album/the-sea-was-never-blue)
+
+{{< /text_column >}}
+{{< /section >}}

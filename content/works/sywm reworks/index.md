@@ -27,15 +27,7 @@ tracks:
 
 ---
 
-<!-- {{< blockquote text="“A heady brew of classicism and electronics… I love that very very much indeed”" cite="Adam Walton (BBC Radio Wales)" >}}
-
-{{< blockquote text="“Masterfully understated and laced with a magnetic sense of melody”" cite="Archodia" >}}
-
-{{< blockquote text="“Amazing new music. Absolutely beautiful”" cite="Black Cat Radio" >}}
-
-{{< blockquote text="“Gorgeous”" cite="Drivelcast" >}} -->
-
-# "A heady brew of classicism and electronics" 
+<!-- # "A heady brew of classicism and electronics" 
             — Adam Walton (BBC Radio Wales)
 
 # “Masterfully understated and laced with a magnetic sense of melody”
@@ -45,7 +37,7 @@ tracks:
             — Black Cat Radio
 
 # “Gorgeous”
-            — Drivelcast
+            — Drivelcast -->
 
 
 Reworks of tracks from 2022's _Say You're With Me_ featuring contributions from James Yuill,
@@ -60,18 +52,12 @@ Emma Hooper,
 Alexandra Hamilton-Ayres,
 and Neil Gay.
 
+{{< blockquote text="“A heady brew of classicism and electronics… I love that very very much indeed”" cite="Adam Walton (BBC Radio Wales)" >}}
 
-**Tracklist:**
-1. Eleven Japanese Streams (James Yuill Rework)	4:04
-2. Cascade (Ani Glass Rework)	3:58
-3. On the Morning of the Second Day (Jim Cornick Rework)	5:07
-4. In My Mind Are All the Tides (Josh Semans Rework)	3:41
-5. Time of Flight (Neil Gay Rework)	5:57
-6. Uncertain Times (Echo Juliet Rework)	3:10
-7. Uncertain Times (Simeon Walker Rework)	3:23
-8. Before We Knew (Harriet Riley Rework)	4:19
-9. Between Light and Leaves (Emma Hooper Rework)	3:16
-10. Vincennes (Alexandra Hamilton-Ayres Rework)	4:22
-11. Time of Flight (Radio Edit) (Neil Gay Rework)	3:46
+{{< blockquote text="“Masterfully understated and laced with a magnetic sense of melody”" cite="Archodia" >}}
 
-[Pre-order on Bandcamp](https://larkhall.bandcamp.com/album/and-you-were-say-youre-with-me-reworked)
+{{< blockquote text="“Amazing new music. Absolutely beautiful”" cite="Black Cat Radio" >}}
+
+{{< blockquote text="“Gorgeous”" cite="Drivelcast" >}}
+
+[Pre-orders live on Bandcamp now](https://larkhall.bandcamp.com/album/and-you-were-say-youre-with-me-reworked)

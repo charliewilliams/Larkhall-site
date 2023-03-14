@@ -22,6 +22,8 @@ layout: 'page'
 
 {{< youtube id="iY-fqIP_G3E" >}} <!-- Uncertain Times -->
 
+{{< youtube id="A5x6fXzwAi8" >}} <!-- Violet Hour -->
+
 {{< youtube id="Rxf3QRzjUhQ" >}} <!-- Interview -->
 
 {{< youtube id="iWkLmI8hAYM" >}} <!-- Cascade -->

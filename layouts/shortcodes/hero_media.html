@@ -48,7 +48,7 @@
                     {{ readFile "static/icons/play-pause.svg" | safeHTML }}
                 </button>
             </div>
-            <video class="hm-HostedVideo" nocontrols autoplay webkit-playsinline="true" playisinline muted>
+            <video class="hm-HostedVideo" nocontrols autoplay loop webkit-playsinline="true" playisinline muted>
                 <source src="{{ $input }}" type="video/mp4">
             </video>
         </div>

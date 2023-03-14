@@ -4,10 +4,12 @@ background_color: '#c9dedf'
 ---
 
 {{< section >}}
-    {{< hero_media "squares-ffmpeg-libx264-1080.mp4" >}}
+    <a href="about">
+        {{< hero_media "squares-ffmpeg-libx264-1080.mp4" >}}
+    </a>
 {{< /section >}}
 
-{{< text_column >}}
+<!-- {{< text_column >}}
 # A Composer's Journey into AI-Generated Visuals
 
 ## Meet **Larkhall**: postclassical composer, prizewinning concert pianist, and creative coder. 
@@ -18,11 +20,11 @@ background_color: '#c9dedf'
 
 
 
-{{< /text_column >}}
+{{< /text_column >}} -->
 
-{{< container >}}
+<!-- {{< container >}}
     {{< link_button 
             style="margin-inline: auto; display: block;"
             url="about/" 
             text="Learn More" >}}
-{{< /container >}}
+{{< /container >}} -->

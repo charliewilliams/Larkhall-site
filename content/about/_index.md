@@ -10,25 +10,6 @@ layout: 'page'
 {{< section heading=`**LARKHALL**` >}}
 
 {{< text_column >}}
-<!-- {{< blockquote text="“A heady brew of classicism and electronics… I love that very very much indeed”" cite="Adam Walton (BBC Radio Wales)" >}}
-
-{{< blockquote text="“Masterfully understated and laced with a magnetic sense of melody”" cite="Archodia" >}}
-
-{{< blockquote text="“Amazing new music. Absolutely beautiful”" cite="Black Cat Radio" >}}
-
-{{< blockquote text="“Gorgeous”" cite="Drivelcast" >}} -->
-
-# "A heady brew of classicism and electronics" 
-            — Adam Walton (BBC Radio Wales)
-
-# “Masterfully understated and laced with a magnetic sense of melody”
-            — Archodia
-
-# “Amazing new music. Absolutely beautiful”
-            — Black Cat Radio
-
-# “Gorgeous”
-            — Drivelcast
 
 Larkhall is the performance alias of Charlie Williams, a composer, pianist, and creative coder who combines piano, visual art, and technology to create moving, cinematic performances.
 
@@ -42,13 +23,22 @@ In 2023, he is set to release an album of reworks from *Say You're With Me*, whi
 
 Don't miss the chance to experience Larkhall's unique blend of music and technology in his [upcoming performances](/concerts).
 
+<br>
+
+{{< blockquote text="“A heady brew of classicism and electronics… I love that very very much indeed”" cite="Adam Walton (BBC Radio Wales)" >}}
+
+{{< blockquote text="“Masterfully understated and laced with a magnetic sense of melody”" cite="Archodia" >}}
+
+{{< blockquote text="“Amazing new music. Absolutely beautiful”" cite="Black Cat Radio" >}}
+
+{{< blockquote text="“Gorgeous”" cite="Drivelcast" >}}
 
 {{< /text_column >}}
 {{< /section >}}
 
 
 
-{{< container flex="true" >}}
+<!-- {{< container flex="true" >}}
     {{< download_button 
             url="assets/Larkhall_EPK_2023.zip" 
             text="Download press kit" >}}
@@ -59,5 +49,5 @@ Don't miss the chance to experience Larkhall's unique blend of music and technol
 
     {{< download_button 
             url="assets/Larkhall-Touring-Pack-11-2022.pdf" 
-            text="Download touring pack" >}}
+            text="Download touring pack" >}} -->
 {{< /container >}}
