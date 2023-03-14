@@ -27,19 +27,6 @@ tracks:
 
 ---
 
-<!-- # "A heady brew of classicism and electronics" 
-            — Adam Walton (BBC Radio Wales)
-
-# “Masterfully understated and laced with a magnetic sense of melody”
-            — Archodia
-
-# “Amazing new music. Absolutely beautiful”
-            — Black Cat Radio
-
-# “Gorgeous”
-            — Drivelcast -->
-
-
 Reworks of tracks from 2022's _Say You're With Me_ featuring contributions from James Yuill,
 Ani Glass,
 Jim Cornick,
@@ -60,4 +47,8 @@ and Neil Gay.
 
 {{< blockquote text="“Gorgeous”" cite="Drivelcast" >}}
 
-[Pre-orders live on Bandcamp now](https://larkhall.bandcamp.com/album/and-you-were-say-youre-with-me-reworked)
+{{< link_button 
+            style="margin-inline: auto; display: block;"
+            url="https://larkhall.bandcamp.com/album/and-you-were-say-youre-with-me-reworked"
+            target="_blank"
+            text="Pre-orders live on Bandcamp now" >}}

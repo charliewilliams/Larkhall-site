@@ -22,23 +22,20 @@ tracks:
   
 ---
 
-# “Exceptional... Very powerful, something you need to experience.” 
-            — Jamie Funk, No More Division
-
-# “An alluring trip through lush soundscapes, ethereal and cinematic. [It] entrances from the beginning… radiant.” 
-            — Tom Lynch, NewCity
-
-# “Entrancing” 				
-            — Jim DeRogatis, Chicago Sun-Times
-
-# “Beautiful… introspective… evokes the feeling of lying in a wide open space and staring at an illuminated night sky”
-            — Mark Hornickel, Kenosha News
-
-# “A great success... Impressive... demonstrates a virtuosity that deserves a very large audience” 	
-            —Kreiszeitung
-
 Debut EP from Larkhall. Recorded at the Michael Tippet Centre Concert Hall, Bath Spa University. 
 
 Engineered by Jay Chakravorty and Stuart Bruce. Mastered by Stuart Bruce.
 
-[Get it on Bandcamp](https://larkhall.bandcamp.com/album/larkhall-ep)
+{{< blockquote text="“Exceptional... Very powerful, something you need to experience.”" cite="—Jamie Funk, No More Division" >}}
+{{< blockquote text="“An alluring trip through lush soundscapes, ethereal and cinematic. [It] entrances from the beginning… radiant.”" cite="—Tom Lynch, NewCity" >}}
+{{< blockquote text="“Entrancing”" cite="—Jim DeRogatis, Chicago Sun-Times" >}}
+{{< blockquote text="“Beautiful… introspective… evokes the feeling of lying in a wide open space and staring at an illuminated night sky”" cite="—Mark Hornickel, Kenosha News" >}}
+{{< blockquote text="“A great success... Impressive... demonstrates a virtuosity that deserves a very large audience”" cite="—Kreiszeitung" >}}
+
+<br>
+{{< link_button 
+            style="margin-inline: auto; display: block;"
+            url="https://larkhall.bandcamp.com/album/larkhall-ep"
+            target="_blank"
+            text="Get it on Bandcamp" >}}
+

@@ -29,18 +29,23 @@ tracks:
 ---
 
 {{< section >}}
-
-{{< blockquote text="“A wonderful change of pace... spoke directly to the Nils Frahm fan in me.”" cite="Sunny Stuart Winter, Fresh on the Net" >}}
-            
-{{< blockquote text="“Vividly beautiful”" cite="Hämeenkyrön Sanomat" >}}
-
 {{< text_column >}}
 
 First full-length album from Larkhall. 
 
 Recorded at Twigmore Hall, Bath. Mixed and mastered by Stuart Bruce.
 
-[Get it on Bandcamp](https://larkhall.bandcamp.com/album/the-sea-was-never-blue)
+{{< blockquote text="“A wonderful change of pace... spoke directly to the Nils Frahm fan in me.”" cite="—Sunny Stuart Winter, Fresh on the Net" >}}
+            
+{{< blockquote text="“Vividly beautiful”" cite="—Hämeenkyrön Sanomat" >}}
+
+<br><br>
+
+{{< link_button 
+            style="margin-inline: auto; display: block;"
+            url="https://larkhall.bandcamp.com/album/the-sea-was-never-blue"
+            target="_blank"
+            text="Get it on Bandcamp" >}}
 
 {{< /text_column >}}
 {{< /section >}}
