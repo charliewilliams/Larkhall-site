@@ -8,7 +8,7 @@ layout: 'page'
 
 {{< text_column >}}
 
-{{< two_columns gap="0.5em" >}}
+{{< three_columns gap="0.5em" >}}
 
 {{< youtube id="IdIYbkqPWjI" >}} <!-- TOF -->
 
@@ -26,7 +26,7 @@ layout: 'page'
 
 {{< youtube id="iWkLmI8hAYM" >}} <!-- Cascade -->
 
-{{< /two_columns >}}
+{{< /three_columns >}}
 
 {{< /text_column >}}
 
