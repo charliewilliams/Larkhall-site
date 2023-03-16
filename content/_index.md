@@ -4,9 +4,9 @@ background_color: '#c9dedf'
 ---
 
 {{< section >}}
-    <a href="about">
+    <!-- <a href="about"> -->
         {{< hero_media "squares-ffmpeg-libx264-1080.mp4" >}}
-    </a>
+    <!-- </a> -->
 {{< /section >}}
 
 <!-- {{< text_column >}}
