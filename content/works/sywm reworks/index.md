@@ -2,7 +2,7 @@
 title: "And You Were: Say You're With Me Reworked"
 date: 2023
 release_date: '2023-05-27'
-images: [ 'front_cover.jpg' ]
+images: [ 'front_cover.jpg', 'back_cover.jpg' ]
 external_links:
   - service: 'Apple Music'
     icon: 'apple'
