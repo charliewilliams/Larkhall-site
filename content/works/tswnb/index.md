@@ -3,7 +3,7 @@ title: 'The Sea Was Never Blue'
 slug: 'tswnb'
 date: 2019
 release_date: '2019-11-01'
-images: [ 'front_cover.png' ]
+images: [ 'front_cover.png', 'back_cover.jpg' ]
 external_links:
   - service: 'Apple Music'
     icon: 'apple'
