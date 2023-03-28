@@ -34,8 +34,12 @@ Don't miss the chance to experience Larkhall's unique blend of music and technol
 {{< blockquote text="“Gorgeous”" cite="—Drivelcast" >}}
 
 {{< /text_column >}}
-{{< /section >}}
 
+
+{{< /section >}}
+<p align="center">
+  <img src="All-support-1024.jpg" />
+</p>
 
 
 <!-- {{< container flex="true" >}}
@@ -50,4 +54,4 @@ Don't miss the chance to experience Larkhall's unique blend of music and technol
     {{< download_button 
             url="assets/Larkhall-Touring-Pack-11-2022.pdf" 
             text="Download touring pack" >}} -->
-{{< /container >}}
+<!-- {{< /container >}} -->
