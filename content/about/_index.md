@@ -25,7 +25,7 @@ Don't miss the chance to experience Larkhall's unique blend of music and technol
 
 <br>
 
-{{< blockquote text="“A heady brew of classicism and electronics… I love that very very much indeed”" cite="—Adam Walton (BBC Radio Wales)" >}}
+{{< blockquote text="“Complete genius and sonic exquisiteness… wonderful”" cite="—Adam Walton (BBC Radio Wales)" >}}
 
 {{< blockquote text="“Masterfully understated and laced with a magnetic sense of melody”" cite="—Archodia" >}}
 
