@@ -11,15 +11,13 @@ layout: 'page'
 
 {{< text_column >}}
 
-Larkhall is the performance alias of Charlie Williams, a composer, pianist, and creative coder who combines piano, visual art, and technology to create moving, cinematic performances.
+Arriving in the South West of England via Los Angeles and Chicago, Larkhall is the alias of Charlie Williams, a composer-pianist and creative coder. Larkhall collides piano, visual art, technology, with a good helping of handmade machines to explore his classically influenced sound and immersive live performances. 
 
-His AI system 'Otto' creates visuals that unfold in time with the structure of each composition, reacting in real time to the individual nuance of each performance, resulting in a unique and immersive experience.
+Larkhall has self-released three albums in the last four years: [*The Sea Was Never Blue*](/works), [*Say You’re With Me*](/works), and the collaborative rework album [*And You Were*](/works) which enlists the likes of James Yuill, Josh Semans, Ani Glass and Alex Hamilton-Ayres. His sound is strongly influenced by the classical format but seeks to break down traditional classical barriers through use of technology and playful invention.
 
-Williams largely taught himself to play the piano and went on to win the prize for new music performance at the International Shostakovich Piano Competition. He also worked as a software developer for tech startups including Shazam, where he built an audio-reactive "listening" animation.
+Larkhall’s inventions include his ‘harmonics machine’, a device which changes selected notes on the piano to glassy, otherworldly sounds, and an AI system named Otto.  Charlie cut his creative technology teeth back in the day working with software start-up [Shazam](https://www.shazam.com/home) building their audio-reactive “listening” animation. This knowledge fed into the development of Otto; a system which creates projected visuals that unfold in time with the structure of each composition played. Otto collaborates with Larkhall on stage, reacting in real time to the individual nuance of each performance.
 
-His 2019 album, *The Sea Was Never Blue*, hit #2 on the UK iTunes Classical Chart and introduced his signature style of musically-reactive visuals. The 2022 followup, *Say You're With Me*, earned him praise as "A new exciting voice on the contemporary scene" by Hannah MacInnes of Times Radio and "Absolutely lovely" by Scala Radio.
-
-In 2023, he is set to release an album of reworks from *Say You're With Me*, which has already received praise from BBC Introducing, Archodia, Black Cat Radio, Drivelcast, and LiveWire Music.
+In May 2023 Larkhall was awarded a substantial grant to develop Otto’s immersive capabilities is his live show. 
 
 Don't miss the chance to experience Larkhall's unique blend of music and technology in his [upcoming performances](/concerts).
 
