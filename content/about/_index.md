@@ -36,7 +36,8 @@ Don't miss the chance to experience Larkhall's unique blend of music and technol
 
 {{< /section >}}
 <p align="center">
-  <img src="All-support-1024.jpg" />
+  <img src="All-support-1024.jpg" /><br>
+  <img src="All-support2-1024.jpg" />
 </p>
 
 
