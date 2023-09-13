@@ -41,9 +41,9 @@ menu:
     - identifier: 'videos'
       url: '/videos'
       weight: 4
-    # - identifier: 'labs'
-    #   url: '/labs'
-    #   weight: 5
+    - identifier: 'labs'
+      url: '/labs'
+      weight: 5
     - identifier: 'contact'
       url: '/contact'
       weight: 6
