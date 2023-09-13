@@ -41,20 +41,23 @@ menu:
     - identifier: 'videos'
       url: '/videos'
       weight: 4
+    # - identifier: 'labs'
+    #   url: '/labs'
+    #   weight: 5
     - identifier: 'contact'
       url: '/contact'
-      weight: 5
-    - identifier: 'postclassical_assembly'
-      name: 'postclassical assembly'
-      url: 'https://postclassical.co.uk'
       weight: 6
-      params:
-        target: '_blank' # Adding this parameter to an external link ensures it opens in a new browser tab
+    # - identifier: 'postclassical_assembly'
+    #   name: 'postclassical assembly'
+    #   url: 'https://postclassical.co.uk'
+    #   weight: 6
+    #   params:
+    #     target: '_blank'
     - identifier: 'linktr.ee'
       url: 'https://linktr.ee/larkhall'
       weight: 7
       params:
-        target: '_blank'
+        target: '_blank' # Adding this parameter to an external link ensures it opens in a new browser tab
 
   footer:
     - identifier: 'site_info'

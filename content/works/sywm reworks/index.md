@@ -51,4 +51,4 @@ and Neil Gay.
             style="margin-inline: auto; display: block;"
             url="https://larkhall.bandcamp.com/album/and-you-were-say-youre-with-me-reworked"
             target="_blank"
-            text="Pre-orders live on Bandcamp now" >}}
+            text="Listen & order on Bandcamp now" >}}
