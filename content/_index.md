@@ -1,11 +1,11 @@
 ---
 date: "19-02-2023"
-background_color: '#c9dedf'
+background_color: '#ffffff'
 ---
 
 {{< section >}}
     <!-- <a href="about"> -->
-        {{< hero_media "squares-ffmpeg-libx264-1080.mp4" >}}
+        {{< hero_media "Cascade-sm.mp4" >}}
     <!-- </a> -->
 {{< /section >}}
 
