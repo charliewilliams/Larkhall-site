@@ -12,28 +12,28 @@ layout: 'page'
 
 {{< youtube id="IdIYbkqPWjI" >}} <!-- TOF -->
 
-{{< youtube id="gjkn9XFVyws" >}} <!-- Cascade -->
+{{< youtube id="k6t4P5-t18Q" >}} <!-- Cascade -->
 
-{{< youtube id="2bBgaVQ61GY" >}} <!-- Leaves -->
+{{< youtube id="FU37NCnTQK4" >}} <!-- River's Tent -->
+
+{{< youtube id="94wAd9l-HKU" >}} <!-- Light from other days -->
 
 {{< youtube id="tYOShSw-yW0" >}} <!-- Tides -->
 
 {{< youtube id="e3qEKAxrnxU" >}} <!-- Times -->
 
-{{< youtube id="A5x6fXzwAi8" >}} <!-- Violet Hour -->
+<!-- {{< youtube id="xhRWTEsTOp8" >}} M&T -->
 
-{{< youtube id="xhRWTEsTOp8" >}} <!-- M&T -->
+{{< youtube id="CgyuTcxDeLo" >}} <!-- Part 2 >
 
+{{< youtube id="HNE06D-ElJk" >}} <!-- Violet Hour >
 
+<!-- {{< youtube id="iY-fqIP_G3E" >}} Uncertain Times -->
 
-{{< youtube id="Zx85syjUWb0" >}} <!-- River's Tent -->
-
-{{< youtube id="iY-fqIP_G3E" >}} <!-- Uncertain Times -->
-
-{{< youtube id="ot7Vx0-m5Qo" >}} <!-- Astronomia -->
+<!-- {{< youtube id="ot7Vx0-m5Qo" >}} Astronomia -->
 
 
-{{< youtube id="Rxf3QRzjUhQ" >}} <!-- Interview -- >
+<!-- {{< youtube id="Rxf3QRzjUhQ" >}} <!-- Interview -- > -->
 
 {{< /three_columns >}}
 

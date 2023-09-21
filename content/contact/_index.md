@@ -3,9 +3,9 @@ title: 'Larkhall | Contact'
 layout: page
 ---
 
-{{< section >}}
+<!-- {{< section >}}
     {{< hero_media "Larkhall-TEDx-1.jpg" >}}
-{{< /section >}}
+{{< /section >}} -->
 
 {{< newsletter_form headline=`NEWSLETTER` sub_headline=`Get the latest news from Larkhall` background=`primary` subscribe_cta=`SUBSCRIBE` >}}
 
