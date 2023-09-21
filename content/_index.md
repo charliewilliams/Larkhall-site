@@ -5,7 +5,8 @@ background_color: '#ffffff'
 
 {{< section >}}
     <!-- <a href="about"> -->
-        {{< hero_media "Cascade-sm.mp4" >}}
+        <!-- {{< hero_media "Cascade-sm.mp4" >}} -->
+        {{< hero_media "Overview-30s.mp4" >}}
     <!-- </a> -->
 {{< /section >}}
 
