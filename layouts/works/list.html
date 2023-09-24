@@ -2,6 +2,17 @@
 
 {{ $works := where .Site.RegularPages "Section" "works" }}
 {{ $static := index $works 0 }}
+
+{{- with .Site.Menus.works_streaming -}}
+<section class="wop-Externals" title="Streaming Services">
+    {{- range . -}}
+    <a class="wop-ExternalsLink" href="{{ .ConfiguredURL }}" target="_blank">
+        {{ readFile  (printf `static/icons/%s.svg` .Params.icon)  | safeHTML }}
+    </a>
+    {{- end -}}
+</section>
+{{- end -}}
+
 <section class="wop">
 
     <div class="wop-Container">
