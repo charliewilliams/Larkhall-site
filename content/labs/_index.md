@@ -64,7 +64,7 @@ More information about this soon.
 
 {{< /section >}}
 
-{{< section heading=`**SYNTHS & EFFECTS**` >}}
+{{< section heading=`**PEDALS & EFFECTS**` >}}
 
 {{< text_column >}}
 
