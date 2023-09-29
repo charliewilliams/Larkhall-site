@@ -1,6 +1,7 @@
 ---
 date: "19-02-2023"
 background_color: '#ffffff'
+muted: muted
 ---
 
 {{< section >}}
