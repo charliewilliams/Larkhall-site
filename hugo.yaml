@@ -74,24 +74,24 @@ menu:
   works_streaming:
     - identifier: 'bandcamp'
       url: 'https://larkhall.bandcamp.com'
-      weight: 1
-      params:
-        icon: 'bandcamp'
-    - identifier: 'apple_music'
-      url: 'https://music.apple.com/us/artist/larkhall/1094487207'
       weight: 2
       params:
-        icon: 'apple'
+        icon: 'bandcamp_listen'
+    - identifier: 'apple_music'
+      url: 'https://music.apple.com/us/artist/larkhall/1094487207'
+      weight: 1
+      params:
+        icon: 'apple_music_listen'
     - identifier: 'spotify'
       url: 'http://spoti.fi/1V9cn9T'
       weight: 6
       params:
-        icon: 'spotify'
-    - identifier: 'youtube'
-      url: 'https://youtube.com/@LarkhallMusic'
-      weight: 5
-      params:
-        icon: 'youtube'
+        icon: 'spotify_listen_crop'
+    # - identifier: 'youtube'
+    #   url: 'https://youtube.com/@LarkhallMusic'
+    #   weight: 5
+    #   params:
+    #     icon: 'youtube'
   footer_externals:
     - identifier: 'bandcamp'
       url: 'https://larkhall.bandcamp.com'

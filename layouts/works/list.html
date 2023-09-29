@@ -5,6 +5,7 @@
 
 {{- with .Site.Menus.works_streaming -}}
 <section class="wop-Externals" title="Streaming Services">
+    <!-- Streaming links: -->
     {{- range . -}}
     <a class="wop-ExternalsLink" href="{{ .ConfiguredURL }}" target="_blank">
         {{ readFile  (printf `static/icons/%s.svg` .Params.icon)  | safeHTML }}
