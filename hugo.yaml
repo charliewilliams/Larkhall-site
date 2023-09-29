@@ -86,6 +86,7 @@ menu:
       url: 'http://spoti.fi/1V9cn9T'
       weight: 6
       params:
+        # icon: 'listen_on_spotify-cropped'
         icon: 'spotify_listen_crop'
     # - identifier: 'youtube'
     #   url: 'https://youtube.com/@LarkhallMusic'
