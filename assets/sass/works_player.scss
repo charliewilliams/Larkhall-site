@@ -4,6 +4,9 @@
     @include container;
     max-width: 950px;
     width: auto;
+    &:first-child {
+      padding-top: 2rem;
+    }
   }
 
   &-AlbumList {
@@ -70,6 +73,22 @@
     margin-top: clamp(1.5rem, 3vw, 4rem);
     font-size: 1.25rem;
     font-weight: 200;
+  }
+
+  &-Externals {
+    display: flex;
+    padding: clamp(1.5rem, 3vw, 3rem);
+    justify-content: space-around;
+    margin-inline: auto;
+    max-width: 950px;
+  }
+
+  &-ExternalsLink {
+    color: $footer_foreground;
+    svg {
+      width: 9.0rem;
+      height: 3.0rem;
+    }
   }
 
   &-CurrentCovers {
