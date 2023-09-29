@@ -1,5 +1,5 @@
 ---
-title: 'Larkhall | About'
+title: 'Larkhall | Labs'
 layout: 'page'
 ---
 
