@@ -4,7 +4,7 @@ layout: page
 ---
 
 {{< section >}}
-    {{< hero_media "Larkhall-TEDx-0.jpg" >}}
+    {{< hero_media "Larkhall-TEDx-0.jpg" LIVE >}}
 {{< /section >}}
 
 {{< section >}}

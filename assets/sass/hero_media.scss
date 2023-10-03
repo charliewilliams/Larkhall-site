@@ -10,6 +10,19 @@
 }
 
 .hm {
+  &-Overlay {
+    position: absolute;
+    color: white;
+    font-size: 8rem;
+    font-weight: 800;
+    font-kerning: wider;
+    letter-spacing: 1rem;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+  }
+
   &-Embed {
     iframe {
       height: 56vw;

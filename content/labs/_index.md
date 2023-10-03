@@ -4,7 +4,7 @@ layout: 'page'
 ---
 
 {{< section >}}
-    {{< hero_media "lowpoly-wide2.jpg" >}}
+    {{< hero_media "lowpoly-wide2.jpg" LABS >}}
 {{< /section >}}
 
 {{< section heading=`**WORKSHOPS**` >}}

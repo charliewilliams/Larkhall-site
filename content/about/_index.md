@@ -1,10 +1,12 @@
 ---
 title: 'Larkhall | About'
 layout: 'page'
+# overlay: 'ABOUT'
+
 ---
 
 {{< section >}}
-    {{< hero_media "LARKHALL-1-crop.jpg" >}}
+    {{< hero_media "LARKHALL-1-crop.jpg" ABOUT >}}
 {{< /section >}}
 
 {{< section heading=`**LARKHALL**` >}}

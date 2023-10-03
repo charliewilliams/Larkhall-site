@@ -22,6 +22,7 @@
         {{- end -}}
         </div>
     {{- else if eq $res.MediaType.MainType "image" -}}
+    <!-- <div class="container"> -->
     <picture>
         <source
             type="image/webp"
@@ -34,7 +35,10 @@
                     {{ ($res.Resize (printf `%dx%d webp q80` $res.Width $res.Height)).Permalink }} {{ $res.Width }}w"
             />
         <img class="hm-Image" src="{{ $res.Permalink }}" alt="{{ $res.Name }}" width="{{ $res.Width }}" height="{{ $res.Height }}">
+        <div class="hm-Overlay"> {{- .Get 1 -}} </div>
     </picture>
+    
+    <!-- </div> -->
     {{ else }}
         <div class="hm-Hosted">
             <div class="hm-HostedControls">
