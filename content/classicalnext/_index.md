@@ -35,11 +35,6 @@ Don't miss the chance to experience Larkhall's unique blend of music and technol
 
 
 {{< /section >}}
-<p align="center">
-  <img src="All-support-1024.jpg" /><br>
-  <img src="All-support2-1024.jpg" />
-</p>
-
 
 <!-- {{< container flex="true" >}}
     {{< download_button 
@@ -52,5 +47,13 @@ Don't miss the chance to experience Larkhall's unique blend of music and technol
 
     {{< download_button 
             url="assets/Larkhall-Touring-Pack-11-2022.pdf" 
-            text="Download touring pack" >}} -->
-<!-- {{< /container >}} -->
+            text="Download touring pack" >}}
+{{< /container >}} -->
+
+<p align="center">
+  <img src="All-support-1024.jpg" /><br>
+  <img src="All-support2-1024.jpg" />
+</p>
+
+
+
