@@ -2,7 +2,7 @@
   outline: none;
   border: none;
   background: transparent;
-  color: $primary_text;
+  color: white;
       svg {
         width: 32px;
         height: 32px;
@@ -30,6 +30,7 @@
     z-index: 1;
     top: #{'min(6vw, 1rem)'};
     right: #{'min(6vw, 1rem)'};
+    mix-blend-mode: difference;
   }
 
   &-HostedControls {
