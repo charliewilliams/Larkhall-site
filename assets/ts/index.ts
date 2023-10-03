@@ -44,13 +44,36 @@ if (!!document.querySelectorAll('.hm-Hosted')) {
   })
 }
 
-window.getYoutubeIframe = function (event: Event, embedSrc: string) {
+const dualSourceVideo: HTMLVideoElement | null = document.querySelector('.hm-HostedVideo_Mobile');
+
+if (dualSourceVideo !== null) {
+  const { mobilesource, desktopsource} = dualSourceVideo.dataset;
+
+  const srcRegex = mobilesource ? new RegExp(mobilesource) : '';
+  const observer = new ResizeObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.contentBoxSize[0].inlineSize >= 1024) {
+        if (desktopsource && srcRegex && srcRegex.test(dualSourceVideo.src)) {
+          dualSourceVideo.src = `/${desktopsource}.mp4`;
+        }
+      } else {
+        if (mobilesource && srcRegex && !srcRegex.test(dualSourceVideo.src)) {
+          dualSourceVideo.src = `/${mobilesource}.mp4`
+        }
+      }
+    })
+  });
+  observer.observe(dualSourceVideo.closest('section')!);
+}
+
+
+window.getYoutubeIframe = function (event: KeyboardEvent, embedSrc: string) {
   event.preventDefault();
   event.stopPropagation();
   if (event.target && (event.type === "click" || (event.type === 'keydown' && event.keyCode === 13))) {
-    const container  = event.currentTarget.parentElement as HTMLElement;
-    const thumbnail = container.querySelector('img');
-    const playIcon = container.querySelector('svg');
+    const container  = (event.currentTarget as HTMLElement).parentElement!;
+    const thumbnail = container.querySelector('img')!;
+    const playIcon = container.querySelector('svg')!;
     thumbnail.style.pointerEvents = "none";
     playIcon.style.pointerEvents = "none";
     const containerDimentions = container.getBoundingClientRect();
@@ -63,7 +86,6 @@ window.getYoutubeIframe = function (event: Event, embedSrc: string) {
     el.setAttribute('autoplay', "true");
 
     thumbnail.style.position = "absolute";
-    el.addEventListener('DOMContentLoaded', () => console.log('iframe dom leaded'));
     el.addEventListener('load', () => {
       thumbnail.style.opacity = "0";
       playIcon.style.opacity = "0";
