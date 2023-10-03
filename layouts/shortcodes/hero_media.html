@@ -3,6 +3,7 @@
 {{ else }}
 
     {{- $input := .Get 0 -}}
+    {{- $muted := .Get 1 -}}
     {{ $res := .Page.Resources.GetMatch $input }}
 
     {{- if strings.Contains $input "iframe" }}
@@ -40,15 +41,17 @@
                 <button class="hm-HostedControls_Repeat">
                     {{ readFile "static/icons/arrow-counterclockwise.svg" | safeHTML }}
                 </button>
+                {{- if $muted -}}
                 <button class="hm-HostedControls_Mute" aria-muted="true">
                     {{ readFile "static/icons/speaker-wave.svg" | safeHTML }}
                     {{ readFile "static/icons/speaker-slash.svg" | safeHTML }}
                 </button>
+                {{ end -}}
                 <button class="hm-HostedControls_Play">
                     {{ readFile "static/icons/play-pause.svg" | safeHTML }}
                 </button>
             </div>
-            <video class="hm-HostedVideo" nocontrols autoplay loop webkit-playsinline="true" playisinline muted>
+            <video class="hm-HostedVideo" nocontrols autoplay loop webkit-playsinline="true" playisinline {{ $muted }} >
                 <source src="{{ $input }}" type="video/mp4">
             </video>
         </div>
