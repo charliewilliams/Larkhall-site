@@ -5,5 +5,5 @@ muted: 'muted'
 ---
 
 {{< section >}}
-        {{< hero_media "Overview-30s.mp4" muted >}}
+        {{< hero_media "Overview-30s.mp4" "Overview-30s-sq.mp4" muted >}}
 {{< /section >}}
