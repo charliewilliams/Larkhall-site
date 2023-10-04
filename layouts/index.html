@@ -1,3 +1,14 @@
 {{ define "main" }}
     {{ .Content }}
+
+    <div class="hd-NavLinks homeLinks">
+        {{- range where .Site.Menus.main "Identifier" "ne" "powerline" }}
+        <a class="hd-NavLink {{ if eq .Identifier $.Section }}hd-NavLink_Active{{ end }}" href="{{ .ConfiguredURL }}"
+            {{- with .Params.target }}target="{{ . }}"{{ end -}}
+            >
+            {{- default .Identifier .Name | upper -}}
+            {{- with .Params.target }}{{ readFile "static/icons/arrow-forward.svg" | safeHTML }}{{- end -}}
+            </a>
+        {{ end -}}
+    </div>
 {{ end }}
