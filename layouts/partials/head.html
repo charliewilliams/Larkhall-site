@@ -5,6 +5,11 @@
   <meta name="description" content="{{ default .Title (default .Summary .Description) }}">
   {{ with .Params.coverImage }}<meta name="image" content="/images/{{ . }}">{{ end }}
 
+  {{/* favicon */}}
+  <link rel="shortcut icon" type="image/png" href="/images/icon-192x192.png">
+  <link rel="shortcut icon" sizes="192x192" href="/images/icon-192x192.png">
+  <link rel="apple-touch-icon" href="/images/icon-192x192.png">
+
   <meta property="og:title" content="{{ default .Site.Title (default .Title .Params.meta_title) }}">
   <meta property="og:description" content="{{ default .Title (default .Summary .Description) }}">
   {{ with .Params.coverImage }}<meta property="og:image" content="/images/{{ . }}">{{ end }}
