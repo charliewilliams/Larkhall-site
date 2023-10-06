@@ -78,9 +78,15 @@
   &-Externals {
     display: flex;
     padding: clamp(1.5rem, 3vw, 3rem);
-    justify-content: space-around;
     margin-inline: auto;
     max-width: 950px;
+    gap: 1rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    @include md {
+      flex-direction: row;
+    }
   }
 
   &-ExternalsLink {

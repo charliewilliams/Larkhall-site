@@ -31,3 +31,16 @@ h2 { font-weight: 300; }
 @import 'works_player';
 @import 'bit_overrides';
 @import 'blockquote';
+
+.hd-NavLinks.homeLinks {
+  position: relative;
+  transform: none;
+  & .hd-NavLink[target="_blank"] {
+    padding-left: 1.125rem;
+  }
+  @include lg {
+    display: none;
+    visibility: hidden;
+    opacity: 0;
+  }
+}
