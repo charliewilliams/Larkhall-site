@@ -57,10 +57,10 @@
                 </button>
             </div>
             {{ if and (gt (len $.Params) 1) (strings.Contains ($.Get 1) ".mp4") }}
-            <video class="hm-HostedVideo hm-HostedVideo_Mobile" nocontrols autoplay loop webkit-playsinline="true" playisinline data-desktopsource="{{ strings.TrimRight ".mp4" $input }}" data-mobilesource="{{ strings.TrimRight ".mp4" ($.Get 1) }}" src="{{ $.Get 1 }}" type="video/mp4" {{ $muted }}>
+            <video class="hm-HostedVideo hm-HostedVideo_Mobile" nocontrols autoplay loop webkit-playsinline="true" playsinline data-desktopsource="{{ strings.TrimRight ".mp4" $input }}" data-mobilesource="{{ strings.TrimRight ".mp4" ($.Get 1) }}" src="{{ $.Get 1 }}" type="video/mp4" {{ $muted }}>
             </video>
             {{ else }}
-            <video class="hm-HostedVideo" nocontrols autoplay loop webkit-playsinline="true" playisinline {{ $muted }}>
+            <video class="hm-HostedVideo" nocontrols autoplay loop webkit-playsinline="true" playsinline {{ $muted }}>
                 <source src="{{ $input }}" type="video/mp4">
             </video>
             {{ end }}
