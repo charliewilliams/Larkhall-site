@@ -1,0 +1,16 @@
+{{ if and (ne nil (.Get "art_direction")) (or (eq .Params.art_direction "true") (eq .Params.art_direction true)) }}
+<picture>
+    <source media="(min-width: 1024px)" srcset="{{ .Get "desktop" }}" />
+    <img src="{{ .Get "mobile" }}" loading="{{ default "lazy" (.Get "loading") }}"
+        {{- with .Get "class" }} class="{{ . }}"{{ end -}}
+        {{- with .Get "style" }} style="{{ . }}"{{ end -}}
+        {{- with .Get "width" }} width="{{ . }}"{{ end -}}
+        {{- with .Get "height" }} height="{{ . }}"{{ end -}}>
+</picture> 
+{{ else }}
+<img src="{{ .Get "desktop" }}" loading="{{ default "lazy" (.Get "loading") }}"
+    {{- with .Get "class" }} class="{{ . }}"{{ end -}}
+    {{- with .Get "style" }} style="{{ . }}"{{ end -}}
+    {{- with .Get "width" }} width="{{ . }}"{{ end -}}
+    {{- with .Get "height" }} height="{{ . }}"{{ end -}}>
+{{ end }}

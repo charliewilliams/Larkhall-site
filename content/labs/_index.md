@@ -15,6 +15,9 @@ layout: 'page'
 <img src="Otto.jpg" width="400" /><br>
 </p>
 
+{{< img art_direction="true" src="Otto.jpg" desktop="Otto.jpg" mobile="Workshop.jpg" loading="eager" width="500">}}
+{{< img src="Otto.jpg" width="500">}}
+
 Otto is the name for my live visuals system. Because it listens and responds as I play, it feels more like playing with another person than following along to a machine; hence giving Otto a name. Otto's listening system is built in [Max/MSP](https://cycling74.com/products/max) using modules from IRCAM's [Antescofo](https://forum.ircam.fr/projects/detail/antescofo) project.
 
 Otto is, if you're into specs, an AMD Ryzen 9 5900X 12-core 4.8GHz CPU and Nvidia 3060 GPU, on an Asus TUF Gaming X570-Plus WiFi motherboard. He's got Noctua fans so he's nice and quiet during performances. 
