@@ -1,0 +1,76 @@
+{{ if and (ne nil (.Get "art_direction")) (or (eq .Params.art_direction "true") (eq .Params.art_direction true)) }}
+{{- $mobile := .Page.Resources.Get (.Get "mobile") -}}
+{{- $desktop := .Page.Resources.Get (.Get "desktop") -}}
+<picture>
+    <source media="(min-width: 1024px)" type="image/webp"
+        srcset="{{- if gt $desktop.Width 450 -}}{{ ($desktop.Resize `450x webp q80`).Permalink }} 450w,{{- end -}}
+        {{- if gt $desktop.Width 750 -}}{{ ($desktop.Resize `750x webp q80`).Permalink }} 750w,{{- end -}}
+        {{- if gt $desktop.Width 1100 -}}{{ ($desktop.Resize `1100x webp q80`).Permalink }} 1100w,{{- end -}}
+        {{- if gt $desktop.Width 1500 -}}{{ ($desktop.Resize `1500x webp q80`).Permalink }} 1500w,{{- end -}}
+        {{ ($desktop.Resize (printf `%dx%d webp q80` $desktop.Width $desktop.Height)).Permalink }} {{ $desktop.Width }}w"
+        sizes="{{- if (.Get "sizes") -}}
+                    {{- if eq (.Get "sizes") "content" -}}
+                    (max-width: 1023.99px): 100vw, 900px
+                    {{- else if eq (.Get "sizes") "full_width" -}}
+                    100vw
+                    {{- else -}}{{ .Get "sizes" }}{{- end -}}
+                {{- else -}}
+                    {{- with (.Get "width") -}}
+                    (max-width: 1023.99px): 100vw, {{ . }}px
+                    {{- else -}}
+                    100vw
+                    {{- end -}}
+                {{- end -}}" />
+    <img src="{{ $mobile.Permalink }}" loading="{{ default "lazy" (.Get "loading") }}"
+        {{- with .Get "class" }} class="{{ . }}"{{ end -}}
+        {{- with .Get "style" }} style="{{ . }}"{{ end -}}
+        {{- with .Get "width" }} width="{{ . }}"{{ end -}}
+        {{- with .Get "height" }} height="{{ . }}"{{ end -}}
+        srcset="{{- if gt $mobile.Width 450 -}}{{ ($mobile.Resize `450x webp q80`).Permalink }} 450w,{{- end -}}
+        {{- if gt $mobile.Width 750 -}}{{ ($mobile.Resize `750x webp q80`).Permalink }} 750w,{{- end -}}
+        {{- if gt $mobile.Width 1100 -}}{{ ($mobile.Resize `1100x webp q80`).Permalink }} 1100w,{{- end -}}
+        {{- if gt $mobile.Width 1500 -}}{{ ($mobile.Resize `1500x webp q80`).Permalink }} 1500w,{{- end -}}
+        {{- if gt $mobile.Width 2000 -}}{{ ($mobile.Resize `2000x webp q80`).Permalink }} 2000w,{{- end -}}
+        {{ ($mobile.Resize (printf `%dx%d webp q80` $mobile.Width $mobile.Height)).Permalink }} {{ $mobile.Width }}w"
+        sizes="{{- if (.Get "sizes") -}}
+                    {{- if eq (.Get "sizes") "content" -}}
+                    (max-width: 1023.99px): 100vw, 900px
+                    {{- else if eq (.Get "sizes") "full_width" -}}
+                    100vw
+                    {{- else -}}{{ .Get "sizes" }}{{- end -}}
+                {{- else -}}
+                    {{- with (.Get "width") -}}
+                    (max-width: 1023.99px): 100vw, {{ . }}px
+                    {{- else -}}
+                    100vw
+                    {{- end -}}
+                {{- end -}}" />
+</picture> 
+{{ else }}
+{{- $src := .Page.Resources.Get (.Get "src") -}} 
+<img src="{{ $src.Permalink }}" loading="{{ default "lazy" (.Get "loading") }}"
+    srcset="{{- if gt $src.Width 450 -}}{{ ($src.Resize `450x webp q80`).Permalink }} 450w,{{- end -}}
+    {{- if gt $src.Width 750 -}}{{ ($src.Resize `750x webp q80`).Permalink }} 750w,{{- end -}}
+    {{- if gt $src.Width 1100 -}}{{ ($src.Resize `1100x webp q80`).Permalink }} 1100w,{{- end -}}
+    {{- if gt $src.Width 1500 -}}{{ ($src.Resize `1500x webp q80`).Permalink }} 1500w,{{- end -}}
+    {{- if gt $src.Width 2000 -}}{{ ($src.Resize `2000x webp q80`).Permalink }} 2000w,{{- end -}}
+    {{ ($src.Resize (printf `%dx%d webp q80` $src.Width $src.Height)).Permalink }} {{ $src.Width }}w"
+    sizes="{{- if (.Get "sizes") -}}
+                {{- if eq (.Get "sizes") "content" -}}
+                (max-width: 1023.99px): 100vw, 900px
+                {{- else if eq (.Get "sizes") "full_width" -}}
+                100vw
+                {{- else -}}{{ .Get "sizes" }}{{- end -}}
+            {{- else -}}
+                {{- with (.Get "width") -}}
+                (max-width: 1023.99px): 100vw, {{ . }}px
+                {{- else -}}
+                100vw
+                {{- end -}}
+            {{- end -}}"
+    {{- with .Get "class" }} class="{{ . }}"{{ end -}}
+    {{- with .Get "style" }} style="{{ . }}"{{ end -}}
+    {{- with .Get "width" }} width="{{ . }}"{{ end -}}
+    {{- with .Get "height" }} height="{{ . }}"{{ end -}}
+            />
+{{ end }}
