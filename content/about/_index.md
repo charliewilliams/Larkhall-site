@@ -35,10 +35,14 @@ Don't miss the chance to experience Larkhall's unique blend of music and technol
 
 
 {{< /section >}}
+
+{{< section >}}
+{{< text_column >}}
 <p align="center">
-  <img src="All-support-1024.jpg" /><br>
-  <img src="All-support2-1024.jpg" />
+  {{< img art_direction="true" src="All-support-mobile.jpg" desktop="All-support-mobile.jpg" mobile="All-support-mobile.jpg" loading="eager" width="512" >}}
 </p>
+{{< /text_column >}}
+{{< /section >}}
 
 
 <!-- {{< container flex="true" >}}

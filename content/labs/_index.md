@@ -12,14 +12,14 @@ layout: 'page'
 {{< text_column >}}
 
 <p align="center">
-<img src="Otto.jpg" width="400" /><br>
+{{< img art_direction="true" src="Otto.jpg" desktop="Otto.jpg" mobile="Otto.jpg" loading="eager" width="512" >}}
 </p>
 
 Otto is the name for my live visuals system. Because it listens and responds as I play, it feels more like playing with another person than following along to a machine; hence giving Otto a name. Otto's listening system is built in [Max/MSP](https://cycling74.com/products/max) using modules from IRCAM's [Antescofo](https://forum.ircam.fr/projects/detail/antescofo) project.
 
-Otto is, if you're into specs, an AMD Ryzen 9 5900X 12-core 4.8GHz CPU and Nvidia 3060 GPU, on an Asus TUF Gaming X570-Plus WiFi motherboard. He's got Noctua fans so he's nice and quiet during performances. 
+Physically speaking, if you're into specs, Otto is built with an AMD Ryzen 9 5900X 12-core 4.8GHz CPU and Nvidia 3060 GPU, on an Asus X570-Plus motherboard. He's got Noctua fans so he's nice and quiet during performances. 
 
-He creates the visuals during my performances in [Touchdesigner](https://derivative.ca/), which is a programming system built for live visuals.
+Otto and I create the visuals during my performances in [Touchdesigner](https://derivative.ca/), which is a programming system built specifically for this purpose.
 
 {{< /text_column >}}
 
@@ -29,6 +29,7 @@ He creates the visuals during my performances in [Touchdesigner](https://derivat
 
 {{< text_column >}}
 
+{{< youtube id="JwAYktygMgw" >}} <!-- Overview -->
 More information about this soon.
 
 {{< /text_column >}}
