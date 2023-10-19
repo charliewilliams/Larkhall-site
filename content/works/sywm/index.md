@@ -29,7 +29,14 @@ tracks:
 
 ---
 
-Featuring lockdown collaborations with Jay Chakravorty, Jo Quail, Jim Cornick, Beth Porter, Emma Hooper, Ben Mortimer, and Alex Pearson. 
+Larkhall returns with a second full-length album featuring:
+- Jay Chakravorty (electronics, guitar)
+- Jim Cornick (trumpet, electronics)
+- Emma Hooper (viola, voice)
+- Ben Mortimer (saxophone)
+- Alex Pearson (bass)
+- Beth Porter (cello)
+- Jo Quail (cello)
 
 Recorded at Real World Studios, Steinway Recording, and Twigmore Hall. 
 

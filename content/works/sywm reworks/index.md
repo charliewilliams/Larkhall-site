@@ -27,17 +27,19 @@ tracks:
 
 ---
 
-Reworks of tracks from 2022's _Say You're With Me_ featuring contributions from James Yuill,
-Ani Glass,
-Jim Cornick,
-Josh Semans,
-Neil Gay,
-Echo Juliet,
-Simeon Walker,
-Harriet Riley,
-Emma Hooper,
-Alexandra Hamilton-Ayres,
-and Neil Gay.
+Reworks of tracks from 2022's _Say You're With Me_ featuring contributions from:
+
+- Jim Cornick
+- Neil Gay
+- Ani Glass
+- Alexandra Hamilton-Ayres
+- Emma Hooper
+- Echo Juliet
+- Harriet Riley
+- Josh Semans
+- Simeon Walker
+- and James Yuill
+
 
 {{< blockquote text="“A heady brew of classicism and electronics… I love that very very much indeed”" cite="—Adam Walton (BBC Radio Wales)" >}}
 
