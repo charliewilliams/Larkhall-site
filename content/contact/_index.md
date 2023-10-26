@@ -25,3 +25,24 @@ layout: page
     {{< /container >}}
 {{< /section >}}
 
+{{< section >}}
+    {{< container heading="FREQUENTLY ASKED QUESTIONS">}}
+
+        {{< text_column >}}
+
+        Q. Do you always perform with visuals?
+
+        A.
+
+        Q. Which comes first, the music or the visuals? Or do they come together?
+
+        A.
+
+        Q. Why do you perform with visuals? What's their function?
+
+        A.
+
+
+        {{< /text_column >}}
+    {{< /container >}}
+{{< /section >}}
