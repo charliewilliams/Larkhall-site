@@ -44,7 +44,7 @@ menu:
     - identifier: 'labs'
       url: '/labs'
       weight: 5
-    - identifier: 'contact'
+    - identifier: 'contact/faq'
       url: '/contact'
       weight: 6
 #    - identifier: ''
