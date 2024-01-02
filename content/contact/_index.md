@@ -10,17 +10,17 @@ layout: page
 {{< newsletter_form headline=`NEWSLETTER` sub_headline=`Get the latest news from Larkhall` background=`primary` subscribe_cta=`SUBSCRIBE` >}}
 
 {{< section >}}
-    {{< container heading="CONTACT/BOOKING">}}
+    {{< container heading="MANAGEMENT/BOOKING">}}
         {{< contact_card    
-                name="Sarah Warden"
-                contact_email="sarah@larkhall.org" >}}
+                name="Richard Munday"
+                contact_email="richard@larkhall.org" >}}
     {{< /container >}}
 {{< /section >}}
 
 {{< section >}}
     {{< container background="primary" heading="SYNC/GENERAL INQUIRIES">}}
         {{< contact_card    
-                name="Charlie Williams"
+                name="Charlie Hooper-Williams"
                 contact_email="charlie@larkhall.org" >}}
     {{< /container >}}
 {{< /section >}}
