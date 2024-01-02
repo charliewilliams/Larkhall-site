@@ -52,7 +52,7 @@ As my visuals explorations have matured, I have started to have visual ideas tha
 
 Q. What is Postclassical?
 
-{{< details "Postclassical music draws inspiration from classical music, but with a touch of irreverence that lets us make it exciting and new." >}}
+{{< details "Postclassical music draws inspiration from classical music, but with a touch of irreverence that lets us make it exciting and new. It also incorporates elements of pop, electronic, film and other musical traditions." >}}
 It uses instruments from the classical tradition— very often piano and strings— alongside newer instruments like synths, loops, and computer processing. It borrows from the structures and idioms of other genres: ‘pop’, electronica, and folk, as well as the classical ‘minimalist’ movement.
 
 In addition it embraces the recording and production of music as part of the creative process, so you often get these heightened, almost surreal sonic landscapes we’re all used to hearing in popular music. This contrasts with classical recordings, which attempt to essentially capture the experience of being in a concert hall listening to the performance.
