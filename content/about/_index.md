@@ -13,7 +13,7 @@ layout: 'page'
 
 {{< text_column >}}
 
-Composer, inventor and concert pianist Larkhall uses custom-built machines to create new sounds and visuals that accent, highlight and accompany his stirring, beautiful performances. Originally from Chicago, he has made his home in the UK for the last decade, spending time in London, Cambridge, Bath and Bristol as well as on the road.
+Composer, inventor and concert pianist Charlie Hooper-Williams (performing as Larkhall) uses custom-built machines to create new sounds and visuals that accent, highlight and accompany his stirring, beautiful performances. Originally from Chicago, he has made his home in the UK for the last decade, spending time in London, Cambridge, Bath and Bristol as well as on the road.
 
 In his youth as a classical pianist, Larkhall was a prizewinner at the International Shostakovich Piano Competition. Upon leaving that rarified world he toured with several bands, performing from SXSW and CMJ festivals to London’s Cafe Oto, and collaborated with multi-Grammy-winning ensemble eighth blackbird. He has performed works by Rzewski and Corigliano, including city-level premieres. He briefly stepped into the tech industry to help develop the app Shazam, after which he returned to music, now composing his own works.
 
