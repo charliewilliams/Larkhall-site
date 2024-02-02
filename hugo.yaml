@@ -2,6 +2,7 @@ baseURL: '/'
 languageCode: 'en-us'
 title: 'Larkhall'
 googleAnalytics: 'G-V7JCBBC3WR'
+timeout: 120s
 
 Params:
   theme:
