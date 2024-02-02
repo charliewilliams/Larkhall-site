@@ -6,7 +6,7 @@ layout: 'page'
 ---
 
 {{< section >}}
-    {{< hero_media "LARKHALL-1-crop.jpg" ABOUT >}}
+    {{< hero_media "Larkhall-about.jpg" ABOUT >}}
 {{< /section >}}
 
 {{< section heading=`**LARKHALL**` >}}
