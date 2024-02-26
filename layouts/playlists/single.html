@@ -1,0 +1,59 @@
+{{- $album_art := .Resources.GetMatch .Params.playlist_art -}} {{- $art := $album_art.Resize (printf `%dx%d
+webp q80` $album_art.Width $album_art.Height) -}}
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+        {{- partial "head.html" . -}}
+        <body
+                {{
+                with
+                .Params.background_color
+                }}style="background-color: {{ . }};"
+                {{
+                end
+                }}
+                class="pl-PageBody"
+        >
+                <img src="{{ $art.Permalink }}" alt="Album cover art" class="pl-ArtBackground" />
+                <div class="pl-ArtBackground_Overlay"></div>
+                <main id="content" class="pl-Content">
+                        <a href="{{ .Params.playlist_url }}" class="pl-Wrapper" target="_blank">
+                                <div class="pl-ArtBox">
+                                        <img src="{{ $art.Permalink }}" alt="" class="pl-Art" />
+
+                                        <svg
+                                                version="1.1"
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                xmlns:xlink="http://www.w3.org/1999/xlink"
+                                                viewBox="0 0 99 99"
+                                                fill="#fff"
+                                                class='pl-PlayButton'
+                                        >
+                                                <g>
+                                                        <rect
+                                                                height="99.6582"
+                                                                opacity="0"
+                                                                width="99.6094"
+                                                                x="0"
+                                                                y="0"
+                                                        />
+                                                        <path
+                                                                d="M49.8047 99.6094C77.0508 99.6094 99.6094 77.002 99.6094 49.8047C99.6094 22.5586 77.002 0 49.7559 0C22.5586 0 0 22.5586 0 49.8047C0 77.002 22.6074 99.6094 49.8047 99.6094ZM49.8047 91.3086C26.7578 91.3086 8.34961 72.8516 8.34961 49.8047C8.34961 26.7578 26.709 8.30078 49.7559 8.30078C72.8027 8.30078 91.3086 26.7578 91.3086 49.8047C91.3086 72.8516 72.8516 91.3086 49.8047 91.3086ZM40.6738 68.8965L68.457 52.4414C70.5078 51.2695 70.459 48.4375 68.457 47.2168L40.6738 30.7617C38.5742 29.541 35.791 30.4688 35.791 32.8613L35.791 66.7969C35.791 69.1406 38.3789 70.2637 40.6738 68.8965Z"
+                                                                fill-opacity="0.85"
+                                                        />
+                                                </g>
+                                        </svg>
+                                        <span class="pl-TrackCount">
+                                                <img
+                                                src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB3aWR0aD0iMTZweCIgaGVpZ2h0PSIxMHB4IiB2aWV3Qm94PSIwIDAgMTYgMTAiIHZlcnNpb249IjEuMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayI+CiAgICA8IS0tIEdlbmVyYXRvcjogU2tldGNoIDUzICg3MjUyMCkgLSBodHRwczovL3NrZXRjaGFwcC5jb20gLS0+CiAgICA8dGl0bGU+Q29tYmluZWQgU2hhcGU8L3RpdGxlPgogICAgPGRlc2M+Q3JlYXRlZCB3aXRoIFNrZXRjaC48L2Rlc2M+CiAgICA8ZyBpZD0iTXVzaWMtUGFnZXMtLS1SZWRlc2lnbiIgc3Ryb2tlPSJub25lIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCI+CiAgICAgICAgPGcgaWQ9IjAxLS0tQWR2YW5jZWQtLS0xIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtMzE0LjAwMDAwMCwgLTI4NC4wMDAwMDApIiBmaWxsPSIjRkZGRkZGIiBmaWxsLXJ1bGU9Im5vbnplcm8iPgogICAgICAgICAgICA8ZyBpZD0iUGxheWxpc3QjIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgzMDYuMDAwMDAwLCAyNzUuMDAwMDAwKSI+CiAgICAgICAgICAgICAgICA8cGF0aCBkPSJNMTkuOTY4MTM4MywxOC44NDcxNzIyIEMxOS40MzM0NTAzLDE5LjE3ODg0ODYgMTksMTguOTI5NDQxMyAxOSwxOC4zMDkwNzIgTDE5LDEzLjY5MDg2NzggQzE5LDEzLjA2MjAwNjkgMTkuNDM2MTMwOCwxMi44MjI3NTQgMTkuOTY4MTM4MywxMy4xNTI3Njc2IEwyMy41ODk5MTEsMTUuMzk5NDE2NyBDMjQuMTI0NTk5LDE1LjczMTA5MzEgMjQuMTIxOTE4NSwxNi4yNzA1MDk1IDIzLjU4OTkxMSwxNi42MDA1MjMxIEwxOS45NjgxMzgzLDE4Ljg0NzE3MjIgWiBNOSw5IEwyMyw5IEMyMy41NTIyODQ3LDkgMjQsOS40NDc3MTUyNSAyNCwxMCBDMjQsMTAuNTUyMjg0NyAyMy41NTIyODQ3LDExIDIzLDExIEw5LDExIEM4LjQ0NzcxNTI1LDExIDgsMTAuNTUyMjg0NyA4LDEwIEM4LDkuNDQ3NzE1MjUgOC40NDc3MTUyNSw5IDksOSBaIE05LDE3IEwxNiwxNyBDMTYuNTUyMjg0NywxNyAxNywxNy40NDc3MTUzIDE3LDE4IEMxNywxOC41NTIyODQ3IDE2LjU1MjI4NDcsMTkgMTYsMTkgTDksMTkgQzguNDQ3NzE1MjUsMTkgOCwxOC41NTIyODQ3IDgsMTggQzgsMTcuNDQ3NzE1MyA4LjQ0NzcxNTI1LDE3IDksMTcgWiBNOSwxMyBMMTYsMTMgQzE2LjU1MjI4NDcsMTMgMTcsMTMuNDQ3NzE1MyAxNywxNCBDMTcsMTQuNTUyMjg0NyAxNi41NTIyODQ3LDE1IDE2LDE1IEw5LDE1IEM4LjQ0NzcxNTI1LDE1IDgsMTQuNTUyMjg0NyA4LDE0IEM4LDEzLjQ0NzcxNTMgOC40NDc3MTUyNSwxMyA5LDEzIFoiIGlkPSJDb21iaW5lZC1TaGFwZSI+PC9wYXRoPgogICAgICAgICAgICA8L2c+CiAgICAgICAgPC9nPgogICAgPC9nPgo8L3N2Zz4="
+                                                alt="Tracks icon">
+                                                {{ .Params.playlist_length }} 
+                                                </span>
+                                </div>
+                                <div class="pl-Text">
+                                        <h1>{{ .Title }}</h1>
+                                        <p>{{ .Params.description }}</p>
+                                </div>
+                        </a>
+                </main>
+        </body>
+</html>
