@@ -15,7 +15,6 @@ webp q80` $album_art.Width $album_art.Height) -}}
         >
                 <img src="{{ $art.Permalink }}" alt="Album cover art" class="pl-ArtBackground" />
                 <div class="pl-ArtBackground_Overlay"></div>
-                {{- partial "header.html" . -}}
                 <main id="content" class="pl-Content">
                         <a href="{{ .Params.playlist_url }}" class="pl-Wrapper" target="_blank">
                                 <div class="pl-ArtBox">
@@ -56,6 +55,5 @@ webp q80` $album_art.Width $album_art.Height) -}}
                                 </div>
                         </a>
                 </main>
-                {{- partial "footer.html" . -}}
         </body>
 </html>

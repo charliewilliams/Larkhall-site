@@ -45,12 +45,9 @@ menu:
     - identifier: 'labs'
       url: '/labs'
       weight: 6
-    - identifier: 'playlists'
-      url: '/playlists'
-      weight: 7
     - identifier: 'contact/faq'
       url: '/contact'
-      weight: 8
+      weight: 7
 #    - identifier: ''
 #      url: '/next'
 #      weight: 7
