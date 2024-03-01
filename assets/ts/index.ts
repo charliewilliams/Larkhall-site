@@ -21,7 +21,7 @@ window.addEventListener('resize', debounce(
 
 // Button tracking for playlist pages
 const playButton = document.querySelector('pl-Wrapper');
-playButton?.addEventListener('track', function () {
+playButton?.addEventListener('click', function () {
   fbq('track', 'click-thru');
 });
 
