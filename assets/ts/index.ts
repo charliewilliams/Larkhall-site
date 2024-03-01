@@ -22,7 +22,7 @@ window.addEventListener('resize', debounce(
 // Button tracking for playlist pages
 const playButton = document.querySelector('pl-Wrapper');
 playButton?.addEventListener('track', function () {
-  fbq('track', 'PageView');
+  fbq('track', 'click-thru');
 });
 
 // Self hosted video player controls
