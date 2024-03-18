@@ -23,7 +23,15 @@ Don't miss the chance to experience Larkhall's unique blend of music and technol
 
 <br>
 
-{{< blockquote text="“Complete genius and sonic exquisiteness… wonderful”" cite="—Adam Walton (BBC Radio Wales)" >}}
+{{< blockquote text="“Lovely… really special, immersive show”" cite="—Elizabeth Alker, BBC Radio 3" >}}
+
+{{< blockquote text="“Music to soothe the soul… He’s fantastic”" cite="—Ayanna Witter-Johnson, Scala Radio" >}}
+
+{{< blockquote text="“Unmissable… a must-see show”" cite="—Smugglers Spirits" >}}
+
+{{< blockquote text="“A new exciting voice on the contemporary scene”" cite="—Hannah MacInnes, Times Radio" >}}
+
+{{< blockquote text="“Complete genius and sonic exquisiteness… wonderful”" cite="—Adam Walton, BBC Radio Wales" >}}
 
 {{< blockquote text="“Masterfully understated and laced with a magnetic sense of melody”" cite="—Archodia" >}}
 
