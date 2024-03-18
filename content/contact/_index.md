@@ -1,6 +1,8 @@
 ---
 title: 'Larkhall | Contact'
 layout: page
+description: 'Composer, inventor and concert pianist Charlie Hooper-Williams uses custom-built machines to create new sounds and visuals that accent, highlight and accompany his stirring, beautiful performances. Originally from Chicago, he has made his home in the UK for the last decade, spending time in London, Cambridge, Bath and Bristol.'
+
 ---
 
 {{< section >}}

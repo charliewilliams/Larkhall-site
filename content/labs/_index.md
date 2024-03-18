@@ -1,6 +1,8 @@
 ---
 title: 'Larkhall | Labs'
 layout: 'page'
+description: 'Larkhall is living proof that the algorithms that surround us in our daily lives can be harnessed as tools for artistic expression. Weaving together music, art, and technology, Larkhall offers a unique, unforgettable piano concert that pushes the boundaries of creativity.'
+
 ---
 
 {{< section >}}

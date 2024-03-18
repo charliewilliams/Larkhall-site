@@ -1,6 +1,8 @@
 ---
 title: 'Larkhall | Videos'
 layout: 'page'
+description: 'At the heart of his artistic innovation lies Otto, his computer co-performer. Otto isn’t just your ordinary AI; it’s a virtuoso in its own right. With the remarkable ability to decipher the intricate musical nuances within a song, Otto translates them into stunning visuals that dance in perfect harmony with the sound. Imagine being able to not just hear, but actually see the music, with astonishing precision and creativity.'
+
 ---
 
 {{< section heading=`**VIDEOS**` >}}
