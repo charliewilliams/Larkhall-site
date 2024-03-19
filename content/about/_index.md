@@ -14,11 +14,13 @@ description: 'Composer and pianist Charlie Hooper-Williams aka Larkhall performs
 
 {{< text_column >}}
 
-Composer, inventor and concert pianist Charlie Hooper-Williams (performing as Larkhall) uses custom-built machines to create new sounds and visuals that accent, highlight and accompany his stirring, beautiful performances. Originally from Chicago, he has made his home in the UK for the last decade, spending time in London, Cambridge, Bath and Bristol as well as on the road.
+Composer and pianist Charlie Hooper-Williams aka Larkhall performs “beautiful” (Times Radio), “soulful, richly layered” (Nick Smithson) music which is “masterfully understated and laced with a magnetic sense of melody” (Archodia). 
+
+A prizewinning former concert pianist, he combines intricate, virtuosic textures with soaring, stirring melodies. Originally from the pine woods of Minnesota’s Iron Range, he grew up near Chicago, studied at the University of Cambridge Centre for Music and Science, and now makes his home in Bath.
+
+Larkhall adds to the piano a set of custom-built machines which create new sounds: his "harmonics machine", and "infinite resonator" shape the instrument's traditional sound into something new, beautiful and exciting.
 
 In his youth as a classical pianist, Larkhall was a prizewinner at the International Shostakovich Piano Competition. Upon leaving that rarified world he toured with several bands, performing from SXSW and CMJ festivals to London’s Cafe Oto, and collaborated with multi-Grammy-winning ensemble eighth blackbird. He has performed works by Rzewski and Corigliano, including city-level premieres. He briefly stepped into the tech industry to help develop the app Shazam, after which he returned to music, now composing his own works.
-
-Following a run at Edinburgh’s Fringe Festival, Larkhall was awarded a development grant from UKRI. This performance will showcase the results of his work developing a “harmonics machine” which changes the sound of some notes of the piano, an “infinite resonator” which allows the piano’s sound to build and grow without limit, and a series of onstage pixels and visual projections which interpret each composition in a new and engaging way.
 
 Don't miss the chance to experience Larkhall's unique blend of music and technology in his [upcoming performances](/concerts).
 
