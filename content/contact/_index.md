@@ -14,8 +14,8 @@ description: 'Composer, inventor and concert pianist Charlie Hooper-Williams use
 {{< section >}}
     {{< container heading="MANAGEMENT/BOOKING">}}
         {{< contact_card    
-                name="Richard Munday"
-                contact_email="richard@larkhall.org" >}}
+                name=""
+                contact_email="larkhall@larkhall.org" >}}
     {{< /container >}}
 {{< /section >}}
 
