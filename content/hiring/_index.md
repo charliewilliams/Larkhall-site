@@ -5,12 +5,6 @@ description: 'Open positions with team Larkahll.'
 
 ---
 
-<!-- {{< section >}}
-    {{< hero_media "Larkhall-contact.jpg" CONTACT >}}
-{{< /section >}} -->
-
-
-
 {{< section heading="HIRING: FREELANCE BOOKING AGENT / PROMOTER">}}
     <!-- {{< container background="primary" heading="HIRING: FREELANCE BOOKING AGENT / PROMOTER">}} -->
         
