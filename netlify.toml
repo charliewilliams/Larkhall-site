@@ -12,4 +12,4 @@ command = """\
 HUGO_VERSION = "0.110.0"
 NODE_VERSION = "v19.3.0"
 DART_SASS_VERSION = "1.57.1"
-TZ = "America/Los_Angeles"
+TZ = "Europe/London"
