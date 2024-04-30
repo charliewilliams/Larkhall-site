@@ -12,6 +12,10 @@ description: 'At the heart of his artistic innovation lies Otto, his computer co
 
 {{< three_columns gap="0.5em" >}}
 
+{{< youtube id="hDYMhipcpnI" >}} <!-- Emma -->
+
+{{< youtube id="wG25z0t7x5I" >}} <!-- Expedition -->
+
 {{< youtube id="JwAYktygMgw" >}} <!-- Overview -->
 
 {{< youtube id="IdIYbkqPWjI" >}} <!-- TOF -->
