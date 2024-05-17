@@ -83,9 +83,9 @@ which can be exported and shared
 
 {{< /details >}}
 
-Download PDF brochure: [Intro to Creative Coding](https://drive.google.com/file/d/1xn2lZVDOP_JA4Xc6ygEFbdE0G8n_4n47/view?usp=drive_link)
+Download PDF brochure: [Intro to Creative Coding](https://s.disco.ac/jwxnipjocvke)
 
-Download PDF brochure: [Creating Live Visuals for Music Performance](https://drive.google.com/file/d/1mVNYwfiQLxpHca4PNn4kjUGYtSCd-6az/view?usp=drive_link)
+Download PDF brochure: [Creating Live Visuals for Music Performance](https://s.disco.ac/wrqihbokmvhu)
 
 {{< /text_column >}}
 
@@ -100,8 +100,6 @@ Download PDF brochure: [Creating Live Visuals for Music Performance](https://dri
 </p>
 
 Otto is the name for my live visuals system. Because it listens and responds as I play, it feels more like playing with another person than following along to a machine; hence giving Otto a name. Otto's listening system is built in [Max/MSP](https://cycling74.com/products/max) using modules from IRCAM's [Antescofo](https://forum.ircam.fr/projects/detail/antescofo) project.
-
-Physically speaking, if you're into specs, Otto is built with an AMD Ryzen 9 5900X 12-core 4.8GHz CPU and Nvidia 3060 GPU, on an Asus X570-Plus motherboard. He's got Noctua fans so he's nice and quiet during performances. 
 
 Otto and I create the visuals during my performances in [Touchdesigner](https://derivative.ca/), which is a programming system built specifically for this purpose.
 
