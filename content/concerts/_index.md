@@ -6,7 +6,7 @@ description: 'What if you could see music? Meet Larkhall, the award-winning conc
 ---
 
 {{< section >}}
-    {{< hero_media "Larkhall-1-crop.jpg" LIVE >}}
+    {{< hero_media "IMG_6518-crop.jpeg" LIVE >}}
 {{< /section >}}
 
 {{< section >}}
