@@ -139,11 +139,11 @@ More information about this soon.
 
 In recordings and live performances I use some effects pedals on the piano. 
 
-First we have a tape delay simulator: [Strymon's _El Capistan_](https://www.strymon.net/), which gives a lovely warm analogue-sounding trail or echo on the piano sound.
+First we have a tape delay simulator: the [Strymon _El Capistan_](https://www.strymon.net/), which gives a lovely warm analogue-sounding trail or echo on the piano sound.
 
 From there we go into the [Microcosm by Hologram Electronics](https://www.hologramelectronics.com/microcosm). This brilliant pedal chops up the sound into thousands of small fragments each second, and uses those to make a granular cloud around the piano's sound. It intelligently adapts based on what I'm playing. If you hear the sound of a distant orchestra accompanying me while I play, it's probably this pedal.
 
-Finally I use [Strymon's Big Sky](https://www.strymon.net/), which is one of the most powerful and flexible reverbs I've ever heard. It has shimmer and cloud effects that give an otherworldly, spacious sound to the piano.
+Finally I use the [Strymon Big Sky](https://www.strymon.net/), which is one of the most powerful and flexible reverbs I've ever heard. It has shimmer and cloud effects that give an otherworldly, spacious sound to the piano.
 
 {{< /text_column >}}
 
