@@ -12,10 +12,13 @@ description: 'Composer, inventor and concert pianist Charlie Hooper-Williams use
 {{< newsletter_form headline=`NEWSLETTER` sub_headline=`Get the latest news from Larkhall` background=`primary` subscribe_cta=`SUBSCRIBE` >}}
 
 {{< section >}}
-    {{< container heading="MANAGEMENT/BOOKING">}}
+    {{< container heading="BOOKING">}}
+            {{< contact_card    
+                name="Nonclassical: Joel McBride"
+                contact_email="joel@larkhall.org" >}}
         {{< contact_card    
-                name=""
-                contact_email="larkhall@larkhall.org" >}}
+                name="Classical & Education: Becky Pugh"
+                contact_email="hello@larkhall.org" >}}
     {{< /container >}}
 {{< /section >}}
 
