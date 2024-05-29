@@ -16,7 +16,19 @@ description: 'At the heart of his artistic innovation lies Otto, his computer co
 
 {{< youtube id="wG25z0t7x5I" >}} <!-- Expedition -->
 
+{{< youtube id="psLrBk0qfVc" >}} <!-- Cloudgazing -->
+
+{{< youtube id="OjDrHBDpzis" >}} <!-- In that direction -->
+
+{{< youtube id="ceThIgYd1jU" >}} <!-- Tides -->
+
+{{< youtube id="sI4FMeTWlig" >}} <!-- Astronomia -->
+
+{{< youtube id="PyjrcoSvypI" >}} <!-- Uncertain Times -->
+
 {{< youtube id="JwAYktygMgw" >}} <!-- Overview -->
+
+{{< youtube id="5MVK76ILGKk" >}} <!-- Violet Hour >
 
 {{< youtube id="IdIYbkqPWjI" >}} <!-- TOF -->
 
@@ -36,7 +48,7 @@ description: 'At the heart of his artistic innovation lies Otto, his computer co
 
 {{< youtube id="CgyuTcxDeLo" >}} <!-- Part 2 >
 
-{{< youtube id="HNE06D-ElJk" >}} <!-- Violet Hour >
+<!-- {{< youtube id="HNE06D-ElJk" >}} <!-- Violet Hour > -->
 
 <!-- {{< youtube id="iY-fqIP_G3E" >}} Uncertain Times -->
 
