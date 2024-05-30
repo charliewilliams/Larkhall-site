@@ -12,9 +12,7 @@ description: 'At the heart of his artistic innovation lies Otto, his computer co
 
 {{< three_columns gap="0.5em" >}}
 
-{{< youtube id="wG25z0t7x5I" >}} <!-- Expedition -->
-
-{{< youtube id="psLrBk0qfVc" >}} <!-- Cloudgazing -->
+{{< youtube id="hDYMhipcpnI" >}}
 
 {{< youtube id="OjDrHBDpzis" >}} <!-- In that direction -->
 
@@ -24,13 +22,21 @@ description: 'At the heart of his artistic innovation lies Otto, his computer co
 
 {{< youtube id="PyjrcoSvypI" >}} <!-- Uncertain Times -->
 
+{{< youtube id="psLrBk0qfVc" >}} <!-- Cloudgazing -->
+
+{{< youtube id="wG25z0t7x5I" >}} <!-- Expedition -->
+
 {{< youtube id="JwAYktygMgw" >}} <!-- Overview -->
 
-{{< youtube id="IdIYbkqPWjI" >}} <!-- TOF -->
+{{< youtube id="NlaqR3zsRMo" >}} <!-- Violet Hour -->
+
+{{< youtube id="kNdElSTB8aM" >}} <!-- Hide and Seek -->
 
 {{< youtube id="k6t4P5-t18Q" >}} <!-- Cascade -->
 
 {{< youtube id="FU37NCnTQK4" >}} <!-- River's Tent -->
+
+{{< youtube id="IdIYbkqPWjI" >}} <!-- TOF -->
 
 {{< youtube id="94wAd9l-HKU" >}} <!-- Light from other days -->
 
@@ -39,19 +45,6 @@ description: 'At the heart of his artistic innovation lies Otto, his computer co
 {{< youtube id="tYOShSw-yW0" >}} <!-- Tides -->
 
 {{< youtube id="e3qEKAxrnxU" >}} <!-- Times -->
-
-<!-- {{< youtube id="xhRWTEsTOp8" >}} M&T -->
-
-{{< youtube id="CgyuTcxDeLo" >}} <!-- Part 2 >
-
-<!-- {{< youtube id="HNE06D-ElJk" >}} <!-- Violet Hour > -->
-
-<!-- {{< youtube id="iY-fqIP_G3E" >}} Uncertain Times -->
-
-<!-- {{< youtube id="ot7Vx0-m5Qo" >}} Astronomia -->
-
-
-<!-- {{< youtube id="Rxf3QRzjUhQ" >}} <!-- Interview -- > -->
 
 {{< /three_columns >}}
 
