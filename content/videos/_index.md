@@ -18,11 +18,13 @@ description: 'At the heart of his artistic innovation lies Otto, his computer co
 
 {{< youtube id="ceThIgYd1jU" >}} <!-- Tides -->
 
+{{< youtube id="FOVTjUw5JYs" >}} <!-- Magnetic Nobleman -->
+
+{{< youtube id="psLrBk0qfVc" >}} <!-- Cloudgazing -->
+
 {{< youtube id="sI4FMeTWlig" >}} <!-- Astronomia -->
 
 {{< youtube id="PyjrcoSvypI" >}} <!-- Uncertain Times -->
-
-{{< youtube id="psLrBk0qfVc" >}} <!-- Cloudgazing -->
 
 {{< youtube id="wG25z0t7x5I" >}} <!-- Expedition -->
 
