@@ -27,7 +27,7 @@ _The workshop is suitable for anyone comfortable with basic computer skills, i.
 
 {{< details "Read more" >}}
 
-**Workshop summary**
+**What is it?**
 - This cross-disciplinary digital-making workshop takes a hands-on
 approach, diving in to creating live animations with shapes that spin,
 warp and pulse in response to music and sound. Working with a
@@ -36,7 +36,7 @@ operators to achieve their vision without writing a line of code.
 Working in pairs, students take turns creating or actively observing in
 order to maximise focus and learning.
 
-**The Instructor**
+**Who’s teaching it?**
 - Charlie Hooper-Williams is an award-winning composer, pianist and
 one of the software developers of the global top-10 app Shazam. His
 performances as Larkhall combine piano with live-generated reactive
@@ -56,16 +56,18 @@ Larkhall’s “vividly beautiful” “music to soothe the soul” is “unmiss
 - Design & Technology
 
 **Participants**
-- Up to 16 per session, usually working in pairs
+- Up to 16 per session, usually working in pairs.
+
+**Ages** 
+- 13-18 or University
 
 **Length** 
-- 120 min (60 min group instruction, 60 min exploration with
-opportunity to ask questions)
-
+- 120 min (60 min instructor-led workshop, 60 min independent exploration with opportunity to ask questions)
 
 **Requirements**
 - One computer for every pair of students. 
 - Pre-downloading, installing and registering the free software (instructions and link provided on registration). Software runs on MacOS and Windows.
+- Demonstration screen/projector with HDMI input.
 
 **Prerequisites**
 - Participants need basic computer skills (open/save a file, attach a
@@ -80,6 +82,9 @@ which can be exported and shared
 - Confidence in picking up new technical skills
 - Experience with digital storytelling
 - Fun!
+
+**Add-ons** 
+- Can pair with a 20-60 min concert demonstration showcasing Larkhall’s unique pairing of piano music with live generated visuals. This can include student work, and there is no maximum audience size.
 
 {{< /details >}}
 
@@ -101,7 +106,7 @@ Download PDF brochure: [Creating Live Visuals for Music Performance](https://s.d
 
 Otto is the name for my live visuals system. Because it listens and responds as I play, it feels more like playing with another person than following along to a machine; hence giving Otto a name. Otto's listening system is built in [Max/MSP](https://cycling74.com/products/max) using modules from IRCAM's [Antescofo](https://forum.ircam.fr/projects/detail/antescofo) project.
 
-Otto and I create the visuals during my performances in [Touchdesigner](https://derivative.ca/), which is a programming system built specifically for this purpose.
+Otto and I create the visuals during my performances in [Touchdesigner](https://derivative.ca), which is a programming system built specifically for this purpose.
 
 {{< /text_column >}}
 

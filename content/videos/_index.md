@@ -12,7 +12,7 @@ description: 'At the heart of his artistic innovation lies Otto, his computer co
 
 {{< three_columns gap="0.5em" >}}
 
-{{< youtube id="hDYMhipcpnI" >}}
+{{< youtube id="hDYMhipcpnI" >}} <!-- Emma -->
 
 {{< youtube id="OjDrHBDpzis" >}} <!-- In that direction -->
 
