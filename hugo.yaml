@@ -33,7 +33,7 @@ menu:
     - identifier: 'about'
       url: '/about'
       weight: 2
-    - identifier: 'concerts'
+    - identifier: 'live'
       url: '/concerts'
       weight: 3
     - identifier: 'works'
@@ -48,18 +48,14 @@ menu:
     - identifier: 'contact/faq'
       url: '/contact'
       weight: 7
-#    - identifier: ''
-#      url: '/next'
-#      weight: 7
-    # - identifier: 'postclassical_assembly'
-    #   name: 'postclassical assembly'
-    #   url: 'https://postclassical.co.uk'
-    #   weight: 6
-    #   params:
-    #     target: '_blank'
-    - identifier: 'linktr.ee'
+    - identifier: 'essays'
+      url: 'https://larkhall.substack.com'
+      weight: 8
+      params:
+        target: '_blank' # Adding this parameter to an external link ensures it opens in a new browser tab
+    - identifier: 'links'
       url: 'https://linktr.ee/larkhall'
-      weight: 7
+      weight: 9
       params:
         target: '_blank' # Adding this parameter to an external link ensures it opens in a new browser tab
 
