@@ -88,9 +88,9 @@ which can be exported and shared
 
 {{< /details >}}
 
-Download PDF brochure: [Intro to Creative Coding](https://s.disco.ac/jwxnipjocvke)
+Download PDF brochure: [Intro to Creative Coding](/labs/Intro-to-creative-coding-workshop.pdf)
 
-Download PDF brochure: [Creating Live Visuals for Music Performance](https://s.disco.ac/wrqihbokmvhu)
+Download PDF brochure: [Creating Live Visuals for Music Performance](/labs/Live-visuals-for-music-performance.pdf)
 
 {{< /text_column >}}
 
