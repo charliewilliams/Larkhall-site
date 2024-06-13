@@ -22,10 +22,10 @@ Alongside performances, I frequently run **"Intro to Creative Coding"** and **"C
 
 These workshops take a hands-on, dive-right-in approach to creative coding. From the very beginning, participants learn by doing, making [simple, visual, interactive scenes](https://www.youtube.com/watch?v=8PYaiNqd9DI) right away. Using the same [software](https://derivative.ca/) I use for my own live visuals, you'll make things spin, glow, warp, and sparkle as you learn about rendering, lighting, textures and more. 
 
-_The workshop is suitable for anyone comfortable with basic computer skills, i.e. opening and saving files, typing, and using a mouse/trackpad._
-<br><br>
+_The workshop is suitable for anyone comfortable with basic computer skills, i.e. opening and saving files, typing, and using a mouse/trackpad._ 
 
-{{< details "Read more" >}}
+_An alternate version of the workshop is available for SEND students in which we create collaboratively and computer skills are not required. Please get in touch to discuss your students' specific needs._
+
 
 **What is it?**
 - This cross-disciplinary digital-making workshop takes a hands-on
@@ -83,14 +83,26 @@ which can be exported and shared
 - Experience with digital storytelling
 - Fun!
 
+**Transferable Skills**
+- Problem-solving
+- Critical thinking
+- Creativity within technology
+- Interdisciplinary
+- Communication skills
+- Technical proficiency
+- Adaptability and Flexibility
+- Research and Information Literacy
+- Time Management and Organisation
+- Resilience and Perseverance
+
 **Add-ons** 
 - Can pair with a 20-60 min concert demonstration showcasing Larkhall’s unique pairing of piano music with live generated visuals. This can include student work, and there is no maximum audience size.
-
-{{< /details >}}
 
 Download PDF brochure: [Intro to Creative Coding](/labs/Intro-to-creative-coding-workshop.pdf)
 
 Download PDF brochure: [Creating Live Visuals for Music Performance](/labs/Live-visuals-for-music-performance.pdf)
+
+{{< blockquote text="“A huge thanks for all your help yesterday. The feedback was fantastic.  Teachers praised and appreciated the atmosphere created regarding access and the space feeling right for the students coming in.”" cite="—Frazer Meakin, Workshop Facilitator & My World Fellow" >}}
 
 {{< /text_column >}}
 
