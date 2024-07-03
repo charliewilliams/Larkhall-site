@@ -19,7 +19,11 @@
     </svg>
 
     {{- $thumbnail := resources.GetRemote (printf "https://i.ytimg.com/vi/%s/hq720.jpg" $id) -}}
-    <img tabindex="0" role="link" aria-role="link" src="{{ $thumbnail.Permalink }}" onclick="getYoutubeIframe(event, 'https://{{ $ytHost }}/embed/{{ $id }}?autoplay=1')" style="max-width: 100%; max-height: auto; z-index: 1; transition: opacity 0.150s ease-out; cursor: pointer;">
+    {{- if $thumbnail }}
+        <img tabindex="0" role="link" aria-role="link" src="{{ $thumbnail.Permalink }}" onclick="getYoutubeIframe(event, 'https://{{ $ytHost }}/embed/{{ $id }}?autoplay=1')" style="max-width: 100%; max-height: auto; z-index: 1; transition: opacity 0.150s ease-out; cursor: pointer;">
+    {{- else }}
+        <p> </p>
+    {{- end }}
 </div>
 {{- end -}}
 {{ end -}}
