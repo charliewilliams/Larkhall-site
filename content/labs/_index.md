@@ -20,24 +20,34 @@ description: 'Creative coding workshops + info about tech used in the live show.
 
 Alongside performances, I frequently run **"Intro to Creative Coding"** and **"Creating Live Visuals for Music Performance"** workshops where young people and adults can have a first taste of using free software to create live reactive visuals, without having to write a line of code.
 
+**Workshop Format 1**
+
+_This format is suitable for anyone comfortable with basic computer skills, i.e. opening and saving files, typing, and using a mouse/trackpad._ 
+- Students work in pairs, using one laptop for each pair of participants.
+- The workshop is very hands-on and participatory, with plenty of scope for questions and safe trial-and-error.
+- In the main part of the workshop, we build an audio-reactive animated multifaceted shape with dynamic lighting and movement.
+- In the closing period, participants can work independently, ask questions, and get help on specific ideas they want to implement. 
+- Sometimes this leads to more group discussion of a topic of interest to the group.
+- Participants can export a video file of their own personal creation to email to themselves, and can also take a copy of their project file to continue working on at home.
+- They leave with a list of resources for further exploration.
+
+**Workshop Format 2**
+
+_An alternate version of the workshop for younger participants, SEND students, or anyone else interested in creating collaboratively. Computer skills are not required. Please get in touch to discuss your prospective audience's specific needs._
+
+- As a group, we walk through creating the same scene as above. The instructor uses the software, explaining what's happening and soliciting ideas and feedback from the participants.
+- Participants make suggestions about how the shape should look and move, colour and placement of lights, how the scene should react to audio.
+- Volunteers can sing, clap or make noise and see the scene react to their sound.
+- The end result is available as an image, video file and project file for participants who want to work with it further at home or share with friends.
+
+**Philosophy**
+
 These workshops take a hands-on, dive-right-in approach to creative coding. From the very beginning, participants learn by doing, making [simple, visual, interactive scenes](https://www.youtube.com/watch?v=8PYaiNqd9DI) right away. Using the same [software](https://derivative.ca/) I use for my own live visuals, you'll make things spin, glow, warp, and sparkle as you learn about rendering, lighting, textures and more. 
 
-_The workshop is suitable for anyone comfortable with basic computer skills, i.e. opening and saving files, typing, and using a mouse/trackpad._ 
 
-_An alternate version of the workshop is available for SEND students in which we create collaboratively and computer skills are not required. Please get in touch to discuss your students' specific needs._
+**Workshop Leader**
 
-
-**What is it?**
-- This cross-disciplinary digital-making workshop takes a hands-on
-approach, diving in to creating live animations with shapes that spin,
-warp and pulse in response to music and sound. Working with a
-node-based programming environment, students build a network of
-operators to achieve their vision without writing a line of code.
-Working in pairs, students take turns creating or actively observing in
-order to maximise focus and learning.
-
-**Who’s teaching it?**
-- Charlie Hooper-Williams is an award-winning composer, pianist and
+Charlie Hooper-Williams is an award-winning composer, pianist and
 one of the software developers of the global top-10 app Shazam. His
 performances as Larkhall combine piano with live-generated reactive
 visuals, posing the question: **What if you could see music?** Having
@@ -59,21 +69,10 @@ Larkhall’s “vividly beautiful” “music to soothe the soul” is “unmiss
 - Up to 16 per session, usually working in pairs.
 
 **Ages** 
-- 13-18 or University
+- 13-18, University-aged, or adults
 
 **Length** 
-- 120 min (60 min instructor-led workshop, 60 min independent exploration with opportunity to ask questions)
-
-**Requirements**
-- One computer for every pair of students. 
-- Pre-downloading, installing and registering the free software (instructions and link provided on registration). Software runs on MacOS and Windows.
-- Demonstration screen/projector with HDMI input.
-
-**Prerequisites**
-- Participants need basic computer skills (open/save a file, attach a
-document to an email) but do NOT need prior coding experience.
-- Students who have learned some coding already will find this a
-change as we do not type any lines of code in the workshop.
+- 60-90 min
 
 **Outcomes**
 - Finished audio-reactive scene (as shown at the top of this page)

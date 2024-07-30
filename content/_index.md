@@ -9,3 +9,9 @@ description: 'Composer and pianist Charlie Hooper-Williams aka Larkhall performs
 {{< section >}}
         {{< hero_media "Overview-30s.mp4" "Overview-30s-sq.mp4" muted >}}
 {{< /section >}}
+
+{{< section >}}
+    {{< text_column >}}
+{{< bands_in_town_widget >}}
+    {{< /text_column >}}
+{{< /section >}}

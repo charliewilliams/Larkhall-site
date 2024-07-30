@@ -3,7 +3,7 @@
 
     <div class="ft-Container">
 
-        {{- with .Site.Menus.footer -}}
+        <!-- {{- with .Site.Menus.footer -}} -->
         <!-- <nav class="ft-Nav">
             {{- range . }}
             <a class="ft-NavLink" href="{{ .ConfiguredURL }}"
@@ -12,7 +12,18 @@
             {{- end -}}
         </nav> -->
 
-        <!-- <hr class="ft-Divider"> -->
+        <hr class="ft-Divider">
+        <!-- {{- end -}} -->
+
+        {{- with .Site.Params.footer_newsletter_signup }}
+        <a class="ft-NewsletterSignup" href="/contact/#newsletter_signup">
+            <span class="ft-NewsletterSignup_Icon">
+                {{ readFile  (printf `static/icons/%s.svg` .icon)  | safeHTML }}
+            </span>
+            {{ .cta }}
+        </a>
+
+    <hr class="ft-Divider">
         {{- end -}}
 
         {{- with .Site.Menus.footer_externals -}}
@@ -24,20 +35,11 @@
             {{- end -}}
         </nav>
 
-        <hr class="ft-Divider">
+        <!-- <hr class="ft-Divider"> -->
         {{- end -}}
         
 
-        {{- with .Site.Params.footer_newsletter_signup }}
-            <a class="ft-NewsletterSignup" href="/contact/#newsletter_signup">
-                <span class="ft-NewsletterSignup_Icon">
-                    {{ readFile  (printf `static/icons/%s.svg` .icon)  | safeHTML }}
-                </span>
-                {{ .cta }}
-            </a>
 
-        <hr class="ft-Divider">
-        {{- end -}}
 
     </div>
 
